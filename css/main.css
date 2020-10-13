@@ -1,0 +1,507 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+body {
+  font-family: Helvetica, sans-serif;
+  /* padding: 2rem; */
+}
+
+/* .interactive-elements-wrapper{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+/* .text-elements-wrapper{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+/* .branding-wrapper{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.link-text{
+  text-decoration: none;
+  color: #858585;
+  font-weight: bold;
+}
+  .link-text:hover{
+    /* color: #3f3f3f; */
+    color: #c21f1f;
+  }
+  .link-text:focus{
+    /* color: #3f3f3f; */
+    color: #c21f1f;
+  }
+
+.element{
+  margin-bottom: 6rem;
+  margin-top: 2rem;
+  flex: 1;
+}
+
+.button-nav{
+  text-decoration: none;
+  /* color: #858585; */
+  color: black;
+  font-weight: bold;
+  }
+  /*https://www.w3schools.com/css/css_link.asp*/
+  .button-nav:hover{
+    /* color: #3f3f3f; */
+    color: #c21f1f;
+  }
+  .button-nav:focus{
+    /* color: #3f3f3f; */
+    color: #c21f1f;
+  }
+/*https://stackoverflow.com/questions/3397113/how-to-remove-focus-border-outline-around-text-input-boxes-chrome*/
+.text-input{
+  padding: 0.5em;
+  border: none;
+  background-color: #eeeeee;
+  margin-top: 0.5em;
+}
+  .text-input:focus{
+    outline: none;
+    border: none;
+    background-color: #e5e5e5;
+    /* background-color: #f2e0e0; */
+  }
+  .text-input:hover{
+    border: none;
+    background-color: #e5e5e5;
+    /* background-color: #f2e0e0; */
+  }
+
+.input-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.label-item{
+  margin-top: 2rem;
+  font-weight: bold;
+}
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Typical_Use_Cases_of_Flexbox*/
+
+
+/*https://www.w3schools.com/css/css3_buttons.asp*/
+.button-form{
+  color: white;
+  /* background-color:#3f3f3f; */
+  background-color :#c21f1f;
+  border: none;
+  padding: 0.5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  font-size: 1rem;
+}
+  .button-form:hover{
+    /* background-color:#505050; */
+    background-color: #8a1f1f;
+    border: none;
+    outline: none;
+  }
+  .button-form:focus{
+    /* background-color:#505050; */
+    background-color: #8a1f1f;
+    border: none;
+    outline: none;
+  }
+
+.button-form-reset{
+  color: white;
+  background-color:#3f3f3f;
+  /* background-color: #858585; */
+  border: none;
+  padding: 0.5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  font-size: 1rem;
+}
+  .button-form-reset:hover{
+    /* background-color:#505050; */
+    background-color: #656565;
+    border: none;
+    outline: none;
+  }
+  .button-form-reset:focus{
+    /* background-color:#505050; */
+    background-color: #656565;
+    border: none;
+    outline: none;
+  }
+
+code{
+  display: flex;
+  background-color: #EEE;
+  padding: 0.5rem;
+}
+h1{
+  font-size: 3.5rem;
+}
+h3{
+  font-size: 2rem;
+  font-family: Georgia, serif;
+}
+h2{
+  font-size: 2.5rem;
+  color: #c21f1f;
+}
+h4{
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.headers h2{
+  color: black;
+}
+
+.nav-list li{
+    padding-bottom: 2rem;
+    padding-right: 3rem;
+  }
+
+.nav-list-main{
+  display: flex;
+  list-style: none;
+}
+  .nav-list-main li{
+    padding-top: 2rem;
+    padding-right: 2rem;
+  }
+
+header h1{
+  font-family: Georgia, serif;
+  font-size: 3.5rem;
+  text-align: center;
+  color: #c21f1f;
+  padding-bottom: 3rem;
+}
+/*https://www.w3schools.com/css/css_image_transparency.asp*/
+.img-link img{
+  max-width:25%;
+}
+.img-link:hover{
+  opacity: 0.75;
+}
+.img-link:focus{
+  opacity: 0.75;
+}
+
+.radio-input label{
+  cursor: pointer;
+}
+.radio-input input{
+  cursor: pointer;
+  /* display: none; */
+}
+
+.ordered-list{
+  list-style-type: upper-roman;
+  font-weight: bold;
+}
+  .ordered-list li{
+    padding: 1em;
+  }
+
+/*https://www.youtube.com/watch?v=QRHjKAq4x3I*/
+.product-card{
+  /* border: #e8e8e8 solid; */
+  /* border: black solid; */
+  background-color: #3f3f3f;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+  .product-name h4{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: white;
+  }
+  .product-img img{
+    max-width: 70%;
+    /* border: black solid; */
+    margin-top: 5rem;
+}
+  .product-para{
+    color: white;
+    text-align: left;
+    margin-right: 5rem;
+    margin-left: 6rem;
+  }
+  .product-price small{
+    padding-bottom: 5rem;
+    color: white;
+  }
+  .product-quote{
+    margin-bottom: 1rem;
+  }
+  .product-details{
+    text-align: right;
+    margin-bottom: 5rem;
+    margin-right: 6rem;
+  }
+
+/* .payment-wrapper{
+  display: flex;
+  flex-direction: column;
+} */
+.payment-buttons{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 6rem;
+}
+  .payment-buttons .button-form-reset{
+    margin-right: 8rem;
+    margin-top: 10rem;
+  }
+  .payment-buttons .button-form{
+    margin-right: 2rem;
+    margin-top: 10rem;
+  }
+
+.nameInfo{
+  display: flex;
+}
+
+.first-entry{
+  margin-right: 10em;
+}
+  .first-entry input{
+    width: 150%;
+  }
+
+.last-entry input{
+  width: 150%;
+}
+
+.addressInfo{
+  display: flex;
+  padding-bottom: 5rem;
+}
+
+.address-entry{
+  margin-right: 10rem;
+}
+  .address-entry input{
+    width: 150%;
+  }
+
+.postal-entry input{
+  width: 75%;
+}
+
+.contactInfo{
+  display: flex;
+}
+
+.phone-entry{
+  margin-right: 10rem;
+}
+  .phone-entry input{
+    width: 150%;
+  }
+
+.email-entry input{
+  width: 150%;
+}
+
+.locationInfo{
+  display: flex;
+}
+
+.country-entry{
+  margin-right: 8.5rem;
+}
+  .country-entry .label-item{
+    margin-bottom: 0.5rem;
+  }
+
+.province-entry .label-item{
+  margin-bottom: 0.5rem;
+}
+
+.cardType{
+  margin-bottom: 0rem;
+  align-items:  center;
+}
+
+.cardInfo{
+  display: flex;
+}
+
+.credit-entry{
+  margin-right: 10rem;
+}
+  .credit-entry input{
+    width: 150%;
+  }
+.cvc-entry{
+  margin-right: 1rem;
+}
+  .cvc-entry input{
+    width: 30%;
+  }
+
+.expiry-entry{
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.expiry-entry .input-item{
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.date-select{
+  display: flex;
+}
+
+textarea{
+  background-color: #EEE;
+  width: 79%;
+  border: none;
+}
+  textarea:focus{
+    outline: none;
+    border: none;
+    background-color: #e5e5e5;
+  }
+  textarea:hover{
+    border: none;
+    background-color: #e5e5e5;
+    /* background-color: #f2e0e0; */
+
+}
+.orderInfo .label-item{
+  margin-bottom: 0.5rem;
+}
+.quoteButton{
+  margin-top: 2rem;
+  margin-left: 29rem;
+}
+
+.quantityInfo{
+  margin-top: 3rem;
+}
+  .quantityInfo input{
+    width: 10%;
+  }
+
+.quote-product-name h4{
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+#branding img{
+ width: 100%;
+}
+
+/*Product Listing Page*/
+.logo{
+  display: flex;
+}
+  .logo img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+/*header navgiation for website*/
+.nav-item-line{
+  display: flex;
+}
+.right-of-nav img{
+  width: 2rem;
+}
+
+#citations{
+  display: flex;
+  flex-direction: column;
+}
+#citations ul{
+  list-style: none;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+
+}
+@media screen and (max-width: 50rem){
+  #citations ul li{
+    width: 50%;
+  }
+/*
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+h2 {
+  margin-top: 6rem;
+}
+
+h3 {
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+h4 {
+  margin-bottom: 0.25rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+*/
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+/*
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(50,50,50);
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: rgb(200,200,200);
+}
+*/
+
+
+
+/*
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+
+/*
+  COMBINED ELEMENTS -------------------
+*/

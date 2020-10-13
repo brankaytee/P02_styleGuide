@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>P01 - Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Bar Candy - Style Guide</h1>
+    </header>
+
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li>
+            <a href="#interactive_elements" class="button-nav">Interactive Elements</a>
+          </li>
+          <li>
+            <a href="#text_elements" class="button-nav">Text Elements</a>
+          </li>
+          <!-- <li>
+            <a href="#combined_elements" class="button-nav">Combined Elements</a>
+          </li> -->
+          <li>
+            <a href="products.html" class="button-nav">Product Listing Template</a>
+          </li>
+          <li>
+            <a href="cart.html" class="button-nav">Checkout Template</a>
+          </li>
+          <li>
+            <a href="#citations" class="button-nav">Citations</a>
+          </li>
+        </ul>
+      </nav>
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <div class="interactive-elements-wrapper">
+      <h2>Interactive Elements</h2>
+
+      <section class="element">
+        <h3>In-text link</h3>
+        <!-- create links within text-->
+        <h4>CSS selector</h4>
+        <p>.link-text</p>
+        <h4>Sample code</h4>
+        <code>
+          &lt;a href="#" class="link-text"&gt;Click here&lt;/a&gt;
+        </code>
+        <h4>Rendered element</h4>
+        <p><a href="#" class="link-text">Click here</a> to see more information.</p>
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+
+        <h3>Navigation Link</h3>
+        <h4>CSS selector</h4>
+        <p>.button-nav</p>
+
+        <h4>Sample code</h4>
+        <code>&lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;</code>
+
+        <h4>Rendered element</h4>
+        <a href="#" class="button-nav">Default Button</a>
+
+      </section>
+
+
+      <section class="element">
+        <!--https://www.w3schools.com/tags/tag_button.asp-->
+        <h3>Submit/Reset Buttons</h3>
+        <h4>CSS selector</h4>
+        <p>.button-form</p>
+        <h4>Sample code</h4>
+        <code>
+            &lt;a href="#" class="button-form"&gt;Submit&lt;/a&gt;
+            &lt;a href="#" class="button-form"&gt;Reset&lt;/a&gt;
+        </code>
+        <h4>Rendered element</h4>
+        <button type="button" class="button-form" onclick="#">Submit</button>
+        <button type="button" class="button-form-reset" onclick="#">Reset</button>
+      </section>
+
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+        <h4>CSS selector</h4>
+        <p>.text-input</p>
+        <p>.input-label</p>
+        <h4>Sample code</h4>
+        <code>
+            &lt;form class="input-text-label"&gt;
+              &lt;label for="email" class="input-label"&gt;Email&lt;/label&gt;
+              &lt;input type="text" id="email" name="email" class="text-input"&gt;
+            &lt;/form&gt;
+        </code>
+        <h4>Rendered element</h4>
+        <form class="input-wrapper">
+          <div class="label-item">
+            <!--resource from https://www.w3schools.com/tags/tag_label.asp-->
+            <label for="email" class="input-label">Email</label>
+          </div>
+          <div class="input-item">
+            <input type="text" id="email" name="email" class="text-input">
+          </div>
+        </form>
+      </section>
+
+
+      <section class="element">
+        <!--resource from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio-->
+        <h3>Radio Button with Label</h3>
+        <h4>CSS selector</h4>
+        <p>.radio-input</p>
+        <h4>Sample code</h4>
+        <code>
+          &lt;form class="radio-input"&gt;
+            &lt;input type="radio" id="option1" name="choice" value="option1"&gt;
+            &lt;label for="option1"&gt;Option1&lt;/label&gt;
+            &lt;input type="radio" id="option2" name="choice" value="option2"&gt;
+            &lt;label for="option2"&gt;Option2&lt;/label&gt;
+            &lt;input type="radio" id="option3" name="choice" value="option3"&gt;
+            &lt;label for="option3"&gt;Option3&lt;/label&gt;
+          &lt;/form&gt;
+        </code>
+        <h4>Rendered element</h4>
+        <div class="radio-wrapper">
+          <form class="radio-input">
+            <input type="radio" id="item1" name="choice" value="item1">
+            <label>Option 1</label>
+            <input type="radio" id="item2" name="choice" value="item2">
+            <label>Option 2</label>
+            <input type="radio" id="item3" name="choice" value="item3">
+            <label>Option 3</label>
+          </form>
+      </div>
+      </section>
+
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+        <h4>CSS selector</h4>
+        <p>.img-link img</p>
+        <h4>Sample code</h4>
+        <code>
+          &lt;a href="#" class="img-link"&gt;
+            &lt;img src="img/product1.jpg" alt="image description"&gt;
+          &lt;/a&gt;
+        </code>
+        <h4>Rendered element</h4>
+        <a href="#" class="img-link">
+          <img src="img/product1.jpg" alt="image description">
+        </a>
+      </section>
+
+</div>
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <div class="text-elements-wrapper">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h3>Headings</h3>
+        <h4>CSS selector</h4>
+        <p>.headers h1, h2, h3, h4</p>
+        <h4>Sample code</h4>
+        <code>
+          &lt;h1&gt;Heading One&lt;/h1&gt;
+          &lt;h2&gt;Heading Two&lt;/h2&gt;
+          &lt;h3&gt;Heading Three&lt;/h3&gt;
+          &lt;h4&gt;Heading Four&lt;/h4&gt;
+        </code>
+        <h4>Rendered element</h4>
+        <div class="headers">
+            <h1>Heading One</h1>
+            <h2>Heading Two</h2>
+            <h3>Heading Three</h3>
+            <h4>Heading Four</h4>
+        </div>
+      </section>
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+        <h4>CSS selector</h4>
+        <p>p</p>
+        <h4>Sample Code</h4>
+        <code>
+          &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer magna nisl, malesuada quis turpis eget, dictum feugiat massa. Nulla facilisi. Maecenas auctor luctus gravida. Proin sit amet tempor nibh. Maecenas fringilla, ante et rutrum cursus, libero est vehicula odio, quis vestibulum enim augue eu sem. Fusce ultrices tellus a ipsum malesuada imperdiet. Nunc imperdiet urna et tellus vulputate, non rhoncus tortor sagittis.&lt;p&gt;
+        </code>
+        <h4>Rendered element</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer magna nisl, malesuada quis turpis eget, dictum feugiat massa. Nulla facilisi. Maecenas auctor luctus gravida. Proin sit amet tempor nibh. Maecenas fringilla, ante et rutrum cursus, libero est vehicula odio, quis vestibulum enim augue eu sem. Fusce ultrices tellus a ipsum malesuada imperdiet. Nunc imperdiet urna et tellus vulputate, non rhoncus tortor sagittis.</p>
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+        <h4>CSS selector</h4>
+        <p>.ordered-list</p>
+        <h4>Sample code</h4>
+        <code>
+          &lt;ol class="ordered-list"&gt;
+            &lt;li&gt;Chocolate&lt;/li&gt;
+            &lt;li&gt;Vanilla&lt;/li&gt;
+            &lt;li&gt;Strawberry&lt;/li&gt;
+          &lt;/ol&gt;
+        </code>
+        <h4>Rendered element</h4>
+        <ol class="ordered-list">
+          <li>Chocolate</li>
+          <li>Vanilla</li>
+          <li>Strawberry</li>
+        </ol>
+      </section>
+    </div>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+    <section id="branding">
+      <div class="branding-wrapper">
+        <h2>Branding</h2>
+        <section class="element">
+        <h3>Basic Branding Ideas</h3>
+          <p>Bar Candy offers exquisite champagne glasses made from Belgian choclate.
+          </p>
+          <p>The company is someone that can provides that extra elegance for customer's that want their parties to be memorable.
+          </p>
+          <p>Bar Candy chocolate champagne glasses are patented and therefore have a monopoly on this product, therefore drawing in customers with little competition. The product itself is enticing to those who want to throw parties or weddings with fun and flare added to their drinking.
+          </p>
+        <h3>Brand Components</h3>
+        <p>Elegant serif fonts for main headings to establish high quality. Modern and readable san serif text for standard information that keeps the content non-outdated and easy to read.
+        </p>
+        <p>A neutral color palette to allow the product images to standout. Potentially white and black to create a clean and classy atmosphere to reinforce the branding of the company.
+        <p>Potential images would include the chocolate champagne glasses displayed at weddings, bars, parties, and high end restaurants. Want to potray the product in environments that it would be used in to reinforce branding.
+        </p>
+        <h3>Persona</h3>
+          <img src="img/persona.png" alt="Persona">
+      </section>
+    </div>
+</section>
+      <section id="citations">
+        <h2>Citations</h2>
+
+        <ul>
+          <li>w3schools. (Web Developer Site). (1990-2020). <strong>Button [HTML Tag]</strong>. Retrieved from <a href="#">https://www.w3schools.com/tags/tag_button.asp</a>.</li>
+          <li>w3schools. (Web Developer Site). (1990-2020). <strong>Label [HTML Tag]</strong>. Retrieved from <a href="#">https://www.w3schools.com/tags/tag_label.asp</a>.</li>
+          <li>w3schools. (Web Developer Site). (1990-2020). <strong>Button Links [CSS]</strong>. Retrieved from <a href="#">https://www.w3schools.com/css/css_link.asp</a>.</li>
+          <li>w3schools. (Web Developer Site). (1990-2020). <strong>Image Transparency [CSS]</strong>. Retrieved from <a href="#">https://www.w3schools.com/css/css_image_transparency.asp</a>.</li>
+          <li>w3schools. (Web Developer Site). (1990-2020). <strong>Button that can link [HTML]</strong>. Retrieved from <a href="#">https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html</a>.</li>
+          <li>technicalkeeda. (Blog). (2019). <strong>Countries for drop down menu [HTML]</strong>. Retrieved from <a href="#">https://www.technicalkeeda.com/html-tutorials/all-countries-drop-down-list-in-html</a>.</li>
+          <li>Freeformatter. (Web Developer Site). (2017). <strong>Provinces for drop down list [HTML]</strong>. Retrieved from <a href="#">https://www.freeformatter.com/canada-province-list-html-select.html</a>.</li>
+          <li>stackoverflow. (Programming Forum). (2016). <strong>Adjusting height for text input [CSS]</strong>. Retrieved from <a href="#">https://stackoverflow.com/questions/41122589/how-to-increase-the-height-of-an-html-text-box-input-with-starting-text-align-fr</a>.</li>
+          <li>stackoverflow. (Programming Forum). (2013). <strong>Link to another page [HTML]</strong>. Retrieved from <a href="#">https://stackoverflow.com/questions/17687328/getting-a-link-to-go-to-a-specific-section-on-another-page</a>.</li>
+          <li>stackoverflow. (Programming Forum). (2013). <strong>Remove focus border for text input [CSS]</strong>. Retrieved from <a href="#">https://stackoverflow.com/questions/3397113/how-to-remove-focus-border-outline-around-text-input-boxes-chrome</a>.</li>
+          <li>MDN web docs. (Web Devloper Site). (2019). <strong>Radio Input [HTML]</strong>. Retrieved from <a href="#">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio</a>.</li>
+          <li>MDN web docs. (Web Devloper Site). (2019). <strong>Flexbox [CSS]</strong>. Retrieved from <a href="#">https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Typical_Use_Cases_of_Flexbox</a>.</li>
+          <li>uxwing. (Icon website). (2020). <strong>Shopping cart [Icon]</strong>. Retrieved from <a href="#">https://uxwing.com/shopping-cart-icon/</a>.</li>
+          <li>Andrea Pereira de Almeida. (BITOVI Website). (2017). <strong>Side navigation bar [CSS]</strong>. Retrieved from <a href="#">https://www.bitovi.com/blog/use-flexbox-to-create-a-sticky-header-and-sidebar-with-flexible-content</a>.</li>
+          <li>Fira Cloud Tech. (YouTube). (2020). <strong>Product card inspiration [CSS]</strong>. Retrieved from <a href="#">https://www.youtube.com/watch?v=QRHjKAq4x3I</a>.</li>
+          <li>Ali Morshedlou. (Unsplash photo website). (Unknown). <strong>Persona Image [Image]</strong>. Retrieved from <a href="#">https://unsplash.com/photos/WMD64tMfc4k</a>.</li>
+        </ul>
+    </section>
+
+
+
+  </body>
+</html>

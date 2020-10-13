@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Product Listing Page</title>
+    <meta charset="utf-8">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <h1>Bar Candy - Style Guide</h1>
+    </header>
+      <div class="logo">
+          <img src="img/logo.jpg" alt="BarCandy Logo">
+      </div>
+      <div class="nav-item-line">
+        <div class="left-of-nav">
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <!--https://stackoverflow.com/questions/17687328/getting-a-link-to-go-to-a-specific-section-on-another-page-->
+            <li>
+              <a href="index.html#interactive_elements" class="button-nav">Interactive Elements</a>
+            </li>
+            <li>
+              <a href="index.html#text_elements" class="button-nav">Text Elements</a>
+            </li>
+            <li>
+              <a href="index.html#combined_elements" class="button-nav">Combined Elements</a>
+            </li>
+            <li>
+              <a href="products.html" class="button-nav">Product Listing Template</a>
+            </li>
+            <li>
+              <a href="cart.html" class="button-nav">Checkout Template</a>
+            </li>
+            <li>
+              <a href="index.html#citations" class="button-nav">Citations</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="right-of-nav">
+          <div class="cart-logo">
+            <a href="cart.html" class="img-link">
+              <!-- https://uxwing.com/shopping-cart-icon/ -->
+              <img src="icons/shopping-cart.svg" alt="cart icon">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cart-wrapper">
+        <div class="checkout-cards">
+          <div class="product-info">
+              <div class="product-img">
+                <a href="#" class="img-link">
+                  <img src="img/product1.jpg" alt="image description">
+                </a>
+            </div>
+            <div class="product-text">
+              <h3>Chocolate Glasses</h3>
+              <p>$X.XX</p>
+              <form class="counter">
+                <label>Quantity</label>
+                <select name="quantity">
+                  <option value="5">5</option>
+                  <option value="10">10</option>
+                  <option value="15">15</option>
+                  <option value="20">20</option>
+                </select>
+              </form>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-img">
+              <a href="#" class="img-link">
+                <img src="img/product1.jpg" alt="image description">
+              </a>
+          </div>
+          <div class="product-text">
+            <h3>Chocolate Glasses</h3>
+            <p>$X.XX</p>
+            <form class="counter">
+              <label>Quantity</label>
+              <select name="quantity">
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+              </select>
+            </form>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-img">
+            <a href="#" class="img-link">
+              <img src="img/product1.jpg" alt="image description">
+            </a>
+          </div>
+        <div class="product-text">
+          <h3>Chocolate Glasses</h3>
+          <p>$X.XX</p>
+          <form class="counter">
+            <label>Quantity</label>
+            <select name="quantity">
+              <option value="5">5</option>
+              <option value="10">10</option>
+              <option value="15">15</option>
+              <option value="20">20</option>
+            </select>
+          </form>
+        </div>
+      </div>
+    </div>
+        <div class="price-summary">
+            <h3>Total:</h3>
+            <p>Sub-total:</p>
+            <p>Shipping:</p>
+            <form action="payment.html">
+              <!-- https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html -->
+              <button type="submit" class="button-form" onclick="#">Proceed to Payment</button>
+            </form>
+        </div>
+      </div>
+  </body>
+</html>
