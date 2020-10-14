@@ -2,11 +2,35 @@
   STYLE GUIDE STYLING
   Default styling for the style guide
 */
-body {
-  font-family: Helvetica, sans-serif;
-  /* padding: 2rem; */
+/* Fonts 
+*/
+test comment 3
+@font-face {
+  font-family: 'Fuji-Bold';
+  src: url('fonts/fuji-bold-webfont.woff');
+}
+@font-face {
+  font-family: 'Fuji-Light';
+  src: url('fonts/fuji-light-webfont.woff');
+}
+@font-face {
+  font-family: 'PanRegular';
+  src: url('fonts/pangram-black-webfont.woff');
+}@font-face {
+  font-family: 'PanBlack';
+  src: url('fonts/pangram-regular-webfont.woff');
+}@font-face {
+  font-family: 'PanLight';
+  src: url('fonts/pangram-extralight-webfont.woff');
 }
 
+
+
+
+body {
+  font-family: 'PanLight';
+  background-color: #f3f3f3
+}
 /* .interactive-elements-wrapper{
   display:flex;
   flex-direction: column;
@@ -32,11 +56,11 @@ body {
 }
   .link-text:hover{
     /* color: #3f3f3f; */
-    color: #c21f1f;
+    color: #03B8C9;
   }
   .link-text:focus{
     /* color: #3f3f3f; */
-    color: #c21f1f;
+    color: #03B8C9;
   }
 
 .element{
@@ -54,11 +78,11 @@ body {
   /*https://www.w3schools.com/css/css_link.asp*/
   .button-nav:hover{
     /* color: #3f3f3f; */
-    color: #c21f1f;
+    color: #03B8C9;
   }
   .button-nav:focus{
     /* color: #3f3f3f; */
-    color: #c21f1f;
+    color: #03B8C9;
   }
 /*https://stackoverflow.com/questions/3397113/how-to-remove-focus-border-outline-around-text-input-boxes-chrome*/
 .text-input{
@@ -95,7 +119,7 @@ body {
 .button-form{
   color: white;
   /* background-color:#3f3f3f; */
-  background-color :#c21f1f;
+  background-color :#03B8C9;
   border: none;
   padding: 0.5rem;
   padding-left: 4rem;
@@ -104,13 +128,13 @@ body {
 }
   .button-form:hover{
     /* background-color:#505050; */
-    background-color: #8a1f1f;
+    background-color: #0294A1;
     border: none;
     outline: none;
   }
   .button-form:focus{
     /* background-color:#505050; */
-    background-color: #8a1f1f;
+    background-color: #0294A1;  
     border: none;
     outline: none;
   }
@@ -144,17 +168,20 @@ code{
   padding: 0.5rem;
 }
 h1{
+  font-family: 'Fuji-Bold';
   font-size: 3.5rem;
 }
 h3{
   font-size: 2rem;
-  font-family: Georgia, serif;
+  font-family: 'Fuji-Bold';
 }
 h2{
   font-size: 2.5rem;
-  color: #c21f1f;
+  font-family: 'Fuji-Bold';
+  color: #03B8C9;
 }
 h4{
+  font-family: 'Fuji-Bold';
   font-size: 1rem;
   margin-bottom: 0.25rem;
 }
@@ -178,10 +205,10 @@ h4{
   }
 
 header h1{
-  font-family: Georgia, serif;
+  font-family: 'Fuji-Bold';
   font-size: 3.5rem;
   text-align: center;
-  color: #c21f1f;
+  color: #03B8C9;
   padding-bottom: 3rem;
 }
 /*https://www.w3schools.com/css/css_image_transparency.asp*/
