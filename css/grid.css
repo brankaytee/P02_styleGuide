@@ -124,7 +124,7 @@
       }
       .product-listing .product-listing-elements h3{
         color: black;
-        font-family: Helvetica, sans-serif;
+        font-family: 'Fuji-Bold';
       }
       .product-listing .product-listing-elements label{
         font-size: 1rem;
@@ -225,12 +225,12 @@
     }
     .cart-wrapper .product-info h3{
       padding-top: 3rem;
-      font-family: Helvetica, sans-serif;
+      font-family: 'Fuji-Bold';
       padding-bottom: 4rem;
     }
     .cart-wrapper .product-info h4{
       padding-top: 9rem;
-      font-family: Helvetica, sans-serif;
+      font-family: 'Fuji-Bold';
       font-size: 1.5rem;
     }
     .cart-wrapper .product-info p{
@@ -247,7 +247,7 @@
       padding-top: 3rem;
       padding-left: 3rem;
       padding-bottom: 2rem;
-      font-family: Helvetica, sans-serif;
+      font-family: 'Fuji-Bold';
     }
     .cart-wrapper .price-summary p{
       padding-left: 3rem;
@@ -277,5 +277,5 @@
 }
   .payment-form-wrapper h3{
     padding-bottom: 3rem;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Fuji-Bold';
   }
