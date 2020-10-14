@@ -252,7 +252,7 @@ header h1{
   display: flex;
   flex-direction: column;
 } */
-.payment-buttons{
+/* .payment-buttons{
   display: flex;
   justify-content: flex-start;
   margin-bottom: 6rem;
@@ -264,9 +264,9 @@ header h1{
   .payment-buttons .button-form{
     margin-right: 2rem;
     margin-top: 10rem;
-  }
+  } */
 
-.nameInfo{
+/* .nameInfo{
   display: flex;
 }
 
@@ -361,7 +361,7 @@ header h1{
 
 .date-select{
   display: flex;
-}
+} */
 
 textarea{
   background-color: #EEE;

@@ -270,12 +270,45 @@
       }
     }
 /* payment form */
-.payment-form-wrapper{
+.payment-wrapper{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-content: center;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
 }
-  .payment-form-wrapper h3{
-    padding-bottom: 3rem;
-    font-family: Helvetica, sans-serif;
+  .payment-wrapper .payment-row{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
   }
+  @media screen and (max-width: 50rem){
+    .payment-wrapper .payment-row{
+      flex-direction: column;
+    }
+  }
+    .payment-wrapper .payment-row:nth-child(3) .label-input{
+      padding-right: 8rem;
+      padding-left: 5rem;
+    }
+    .payment-wrapper .payment-row:nth-child(5){
+      padding-top: 3rem;
+      padding-bottom: 1rem;
+    }
+    .payment-wrapper .payment-row:nth-child(7){
+      justify-content: space-around;
+      padding-top: 10rem;
+      padding-bottom: 5rem;
+    }
+    .payment-wrapper .payment-row .label-input{
+      display: flex;
+      flex-direction: column;
+      padding: 0 3rem 1rem 3rem;
+    }
+.payment-header{
+  text-align: center;
+  padding-bottom: 3rem;
+}
