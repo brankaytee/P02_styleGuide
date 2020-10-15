@@ -318,3 +318,9 @@
   padding-bottom: 3rem;
   font-family: 'Fuji-Bold';
 }
+
+/* Image Header */
+.header-photo{
+  height: 35rem;
+  overflow: hidden;
+}
