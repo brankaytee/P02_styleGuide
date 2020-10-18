@@ -25,19 +25,7 @@ body {
   background-color: #f3f3f3
 }
 
-.link-text{
-  text-decoration: none;
-  color: #858585;
-  font-weight: bold;
-}
-  .link-text:hover{
-    /* color: #3f3f3f; */
-    color: #03B8C9;
-  }
-  .link-text:focus{
-    /* color: #3f3f3f; */
-    color: #03B8C9;
-  }
+
 
 .button-nav{
   text-decoration: none;
@@ -54,20 +42,22 @@ body {
     /* color: #3f3f3f; */
     color: #03B8C9;
   }
-  .headers h2{
-    color: black;
-  }
-
-  .nav-list li{
-      padding-bottom: 2rem;
-      padding-right: 3rem;
-    }
-
-  .nav-list-main{
+  .nav-list{
     display: flex;
+    flex-direction: row;
     list-style: none;
+    padding-bottom: 8rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* flex-grow: 1; */
+    /* padding-left: 24rem;
+    padding-right: 24rem; */
   }
-    .nav-list-main li{
-      padding-top: 2rem;
-      padding-right: 2rem;
-    }
+
+  header h1{
+    font-family: 'Fuji-Bold';
+    font-size: 3.5rem;
+    text-align: center;
+    color: #03B8C9;
+    padding-bottom: 3rem;
+  }
