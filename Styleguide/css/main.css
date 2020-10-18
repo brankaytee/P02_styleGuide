@@ -2,7 +2,7 @@
   STYLE GUIDE STYLING
   Default styling for the style guide
 */
-/* Fonts 
+/* Fonts
 */
 
 @font-face {
@@ -134,7 +134,7 @@ body {
   }
   .button-form:focus{
     /* background-color:#505050; */
-    background-color: #0294A1;  
+    background-color: #0294A1;
     border: none;
     outline: none;
   }
