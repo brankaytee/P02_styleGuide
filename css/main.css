@@ -3,8 +3,9 @@ flex-direction: column;
 flex-wrap: nowrap;
 justify-content: center;
 display: flex; 
-outline: 1px solid black;
+outline: 10px solid black;
 height: 1000px;
+width: 100%;
 }
 @font-face {
   font-family: 'Fuji-Bold';
