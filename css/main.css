@@ -9,7 +9,7 @@ flex-wrap: nowrap;
 justify-content: flex-start;
 display: flex; 
 outline: 10px solid black;
-height: 1000px;
+height: auto;
 width: 100%;
 }
 
@@ -20,7 +20,27 @@ width: 100%;
   
 }
 
-.contact {
+
+#hero {
+ 
+    
+
+}
+
+#about {
+
+}
+
+#products {
+
+
+}
+
+#testimonial {
+
+}
+
+#contact {
     background-color: red;
 }
 
