@@ -6,3 +6,65 @@ display: flex;
 outline: 1px solid black;
 height: 1000px;
 }
+@font-face {
+  font-family: 'Fuji-Bold';
+  src: url('fonts/fuji-bold-webfont.woff');
+}
+@font-face {
+  font-family: 'Fuji-Light';
+  src: url('fonts/fuji-light-webfont.woff');
+}
+@font-face {
+  font-family: 'PanRegular';
+  src: url('fonts/pangram-black-webfont.woff');
+}@font-face {
+  font-family: 'PanBlack';
+  src: url('fonts/pangram-regular-webfont.woff');
+}@font-face {
+  font-family: 'PanLight';
+  src: url('fonts/pangram-extralight-webfont.woff');
+}
+
+
+
+
+body {
+  font-family: 'PanLight';
+  background-color: #f3f3f3
+}
+
+.link-text{
+  text-decoration: none;
+  color: #858585;
+  font-weight: bold;
+}
+  .link-text:hover{
+    /* color: #3f3f3f; */
+    color: #03B8C9;
+  }
+  .link-text:focus{
+    /* color: #3f3f3f; */
+    color: #03B8C9;
+  }
+
+.element{
+  margin-bottom: 6rem;
+  margin-top: 2rem;
+  flex: 1;
+}
+
+.button-nav{
+  text-decoration: none;
+  /* color: #858585; */
+  color: black;
+  font-weight: bold;
+  }
+  /*https://www.w3schools.com/css/css_link.asp*/
+  .button-nav:hover{
+    /* color: #3f3f3f; */
+    color: #03B8C9;
+  }
+  .button-nav:focus{
+    /* color: #3f3f3f; */
+    color: #03B8C9;
+  }
