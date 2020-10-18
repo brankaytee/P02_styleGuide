@@ -1,0 +1,327 @@
+.nav-list{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-bottom: 8rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* flex-grow: 1; */
+  /* padding-left: 24rem;
+  padding-right: 24rem; */
+}
+/*if screen is smaller than 50rem column style nav*/
+@media screen and (max-width: 50rem){
+  .nav-list{
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 0rem;
+  }
+}
+@media screen and (max-width: 50rem){
+  .interactive-elements-wrapper .element{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+.interactive-elements-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: auto;
+}
+  .interactive-elements-wrapper .element{
+    box-sizing: border-box;
+    flex-basis: auto;
+    max-width: 30rem;
+    min-width: 30rem;
+  }
+  .interactive-elements-wrapper .element h4{
+    padding-bottom: 1rem;
+  }
+  @media screen and (max-width: 50rem){
+    .text-elements-wrapper .element{
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+  }
+.text-elements-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  .text-elements-wrapper .element{
+    box-sizing: border-box;
+    flex-basis: auto;
+    max-width: 30rem;
+    min-width: 30rem;
+  }
+
+/* .combined-elements-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+  .combined-elements-wrapper .element{
+    box-sizing: border-box;
+    flex-basis: auto;
+    max-width: 50rem;
+    min-width: 50rem;
+  } */
+  @media screen and (max-width: 50rem){
+    .branding-wrapper .element{
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+  }
+.branding-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  .branding-wrapper .element{
+    box-sizing: border-box;
+    flex-basis: auto;
+    max-width: 30rem;
+    min-width: 30rem;
+  }
+
+/*Product Listing Page*/
+.product-wrapper{
+  display: flex;
+  justify-content: space-around;
+  /* background-color: green; */
+}
+  .product-wrapper h2{
+    padding-left: 3rem;
+    color: black;
+  }
+  .product-listing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    /* background-color: blue; */
+    padding-left: 5rem;
+    padding-right: 5rem;
+    /* align-content: space-between; */
+    margin-top: 2.5rem;
+  }
+    .product-listing .product-listing-elements{
+      box-sizing: border-box;
+      flex-basis: auto;
+      padding-bottom: 10rem;
+    }
+      .product-listing .product-listing-elements img{
+        min-width: 40rem;
+        max-width: 40rem;
+        height: auto;
+      }
+      .product-listing .product-listing-elements p{
+        font-size: 1.5rem;
+        color: #656565;
+      }
+      .product-listing .product-listing-elements h3{
+        color: black;
+        font-family: 'Fuji-Bold';
+      }
+      .product-listing .product-listing-elements label{
+        font-size: 1rem;
+      }
+      .product-listing .product-listing-elements button{
+        margin-left: 13rem;
+      }
+  .side-nav{
+    box-sizing: border-box;
+    flex-basis: 30%;
+    /* background-color: red; */
+  }
+    .side-nav ul{
+      list-style: none;
+    }
+      .side-nav ul li{
+        padding: 0.5rem;
+      }
+        .side-nav ul h2{
+          color: black;
+        }
+        .side-nav ul li:hover{
+          background-color: #f8f8f8;
+        }
+    @media screen and (max-width: 50rem){
+      .product-wrapper{
+        flex-direction: column;
+      }
+    }
+    @media screen and (max-width: 65rem){
+      .product-listing .product-listing-elements img{
+        max-width: 25rem;
+        min-width: 25rem;
+        height: auto;
+      }
+    }
+
+    /*header navgiation for website*/
+    .nav-item-line{
+      display: flex;
+      justify-content: center;
+      }
+      .left-of-nav{
+        box-sizing: border-box;
+        flex-basis: 17%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        /* background-color: blue; */
+      }
+        @media screen and (max-width: 50rem){
+          .left-of-nav{
+            flex-basis: 0%;
+          }
+        }
+      .nav .nav-list{
+        box-sizing: border-box;
+      }
+      .right-of-nav{
+        box-sizing: border-box;
+        flex-basis: 17%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        /* background-color: red; */
+        display: flex;
+      }
+        .right-of-nav{
+          justify-content: flex-end;
+        }
+        .right-of-nav img{
+          width: 8rem;
+          height: auto;
+          /* margin-left: 15rem; */
+        }
+/* cart checkout page */
+.cart-wrapper{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+  .cart-wrapper .product-text{
+    padding-right: 3rem;
+  }
+  .cart-wrapper .product-info{
+    box-sizing: border-box;
+    flex-basis: 50%;
+    /* background-color: #f8f8f8; */
+    display: flex;
+    justify-content: space-around;
+    min-width: 30rem;
+    flex-wrap: wrap;
+    padding-left: 3rem;
+  }
+    .cart-wrapper .product-info img{
+      min-width: 25rem;
+      max-width: 25rem;
+      padding-bottom: 3rem;
+      padding-right: 3rem;
+    }
+    .cart-wrapper .product-info h3{
+      padding-top: 3rem;
+      font-family: 'Fuji-Bold';
+      padding-bottom: 4rem;
+    }
+    .cart-wrapper .product-info h4{
+      padding-top: 9rem;
+      font-family: 'Fuji-Bold';
+      font-size: 1.5rem;
+    }
+    .cart-wrapper .product-info p{
+      font-size: 1.5rem;
+    }
+  .cart-wrapper .price-summary{
+    box-sizing: border-box;
+    /* background-color: #f8f8f8; */
+    flex-basis: 25%;
+    justify-content: center;
+    min-width: 30rem;
+  }
+    .cart-wrapper .price-summary h3{
+      padding-top: 3rem;
+      padding-left: 3rem;
+      padding-bottom: 2rem;
+      font-family: 'Fuji-Bold';
+    }
+    .cart-wrapper .price-summary p{
+      padding-left: 3rem;
+      font-size: 1.5rem;
+    }
+    .cart-wrapper .price-summary button{
+      margin-left: 3rem;
+      margin-right: auto;
+      margin-top: 2rem;
+      width: 80%;
+      margin-bottom: 3rem;
+    }
+    @media screen and (max-width: 50rem){
+      .cart-wrapper .product-info img{
+        padding-bottom: 0rem;
+      }
+      .cart-wrapper .product-info h3{
+        padding-bottom: 0rem;
+        padding-top: 0rem;
+      }
+    }
+/* payment form */
+.payment-wrapper{
+  display: flex;
+  align-content: center;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+  .payment-wrapper .payment-row{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  .payment-form-wrapper h3{
+    padding-bottom: 3rem;
+    font-family: 'Fuji-Bold';
+  }
+}
+  @media screen and (max-width: 50rem){
+    .payment-wrapper .payment-row{
+      flex-direction: column;
+    }
+  }
+    .payment-wrapper .payment-row:nth-child(3) .label-input{
+      padding-right: 8rem;
+      padding-left: 5rem;
+    }
+    .payment-wrapper .payment-row:nth-child(5){
+      padding-top: 3rem;
+      padding-bottom: 1rem;
+    }
+    .payment-wrapper .payment-row:nth-child(7){
+      justify-content: space-around;
+      padding-top: 10rem;
+      padding-bottom: 5rem;
+    }
+    .payment-wrapper .payment-row .label-input{
+      display: flex;
+      flex-direction: column;
+      padding: 0 3rem 1rem 3rem;
+    }
+.payment-header{
+  text-align: center;
+  padding-bottom: 3rem;
+  padding-bottom: 3rem;
+  font-family: 'Fuji-Bold';
+}
+
+/* Image Header */
+.header-photo{
+  height: 35rem;
+  overflow: hidden;
+  margin-bottom: 15rem;
+}
