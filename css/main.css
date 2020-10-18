@@ -48,12 +48,6 @@ body {
     color: #03B8C9;
   }
 
-.element{
-  margin-bottom: 6rem;
-  margin-top: 2rem;
-  flex: 1;
-}
-
 .button-nav{
   text-decoration: none;
   /* color: #858585; */
@@ -69,3 +63,20 @@ body {
     /* color: #3f3f3f; */
     color: #03B8C9;
   }
+  .headers h2{
+    color: black;
+  }
+
+  .nav-list li{
+      padding-bottom: 2rem;
+      padding-right: 3rem;
+    }
+
+  .nav-list-main{
+    display: flex;
+    list-style: none;
+  }
+    .nav-list-main li{
+      padding-top: 2rem;
+      padding-right: 2rem;
+    }
