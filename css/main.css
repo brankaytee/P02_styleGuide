@@ -1,3 +1,8 @@
+
+
+
+/* Main Flex Content */
+
 .maincontainer {
 flex-direction: column;
 flex-wrap: nowrap;
@@ -7,6 +12,19 @@ outline: 10px solid black;
 height: 1000px;
 width: 100%;
 }
+
+.section {
+ width: 100%;
+ background-color: grey;
+ padding: 40px;
+
+}
+
+.contact {
+    background-color: red;
+}
+
+
 @font-face {
   font-family: 'Fuji-Bold';
   src: url('fonts/fuji-bold-webfont.woff');
