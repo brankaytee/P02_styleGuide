@@ -6,7 +6,7 @@
 .maincontainer {
 flex-direction: column;
 flex-wrap: nowrap;
-justify-content: center;
+justify-content: flex-start;
 display: flex; 
 outline: 10px solid black;
 height: 1000px;
@@ -14,10 +14,10 @@ width: 100%;
 }
 
 .section {
- width: 100%;
+ width: auto;
  background-color: grey;
  padding: 40px;
-
+  
 }
 
 .contact {
