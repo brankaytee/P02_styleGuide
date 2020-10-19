@@ -14,7 +14,7 @@ body {
 flex-direction: column;
 flex-wrap: nowrap;
 justify-content: flex-start;
-display: flex; 
+display: flex;
 height: auto;
 width: 100%;
 }
@@ -23,7 +23,7 @@ width: 100%;
  width: auto;
  background-color: grey;
  padding: 40px;
-  
+
 }
 
 
@@ -52,26 +52,36 @@ box-shadow: inset 0 0 0 1000px rgba(3, 184, 201, 0.9);
   background-color: #ebebeb;
   padding-top: 10rem;
   padding-bottom: 10rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  align-items: center;
 }
   #about .left-side{
     box-sizing:border-box;
-    flex-basis: auto;
+    flex-basis: 100%;
   }
     #about .left-side img{
-      width: 30rem;
+      /* width: 30rem; */
     }
   #about .right-side{
     box-sizing: border-box;
-    width: 50%;
+    flex-basis: 100%;
   }
     #about .right-side p{
-      width: 75%;
+      /* width: 40rem; */
     }
 
 #products {
-
-
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  align-items: center;
 }
+  #products .product-listing-elements button{
+    margin-top: 3rem;
+  }
 
 #testimonial {
 
@@ -139,6 +149,52 @@ body {
     padding-right: 24rem; */
   }
 
+  .button-form{
+    color: white;
+    /* background-color:#3f3f3f; */
+    background-color :#03B8C9;
+    border: none;
+    padding: 0.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 1rem;
+  }
+    .button-form:hover{
+      /* background-color:#505050; */
+      background-color: #0294A1;
+      border: none;
+      outline: none;
+    }
+    .button-form:focus{
+      /* background-color:#505050; */
+      background-color: #0294A1;
+      border: none;
+      outline: none;
+    }
+
+  .button-form-reset{
+    color: white;
+    background-color:#3f3f3f;
+    /* background-color: #858585; */
+    border: none;
+    padding: 0.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 1rem;
+  }
+    .button-form-reset:hover{
+      /* background-color:#505050; */
+      background-color: #656565;
+      border: none;
+      outline: none;
+    }
+    .button-form-reset:focus{
+      /* background-color:#505050; */
+      background-color: #656565;
+      border: none;
+      outline: none;
+    }
+
   header h1{
     font-family: 'Fuji-Bold';
     font-size: 3.5rem;
@@ -156,4 +212,5 @@ body {
   }
   h2{
     font-size: 3rem;
+    font-family: 'Fuji-Bold';
   }
