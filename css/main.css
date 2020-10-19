@@ -84,7 +84,20 @@ box-shadow: inset 0 0 0 1000px rgba(3, 184, 201, 0.9);
   }
 
 #testimonial {
+color: white;
+text-align: center;
+padding: 10em;
+background-image: url("../img/herobackdrop.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: #464646;
+box-shadow: inset 0 0 0 1000px rgba(3, 184, 201, 0.9);
+font-family: 'PanBlack';
 
+}
+#testimonial.p {
+   
 }
 
 #contact {
@@ -121,12 +134,12 @@ body {
 }
 
 
-
 .button-nav{
   text-decoration: none;
   /* color: #858585; */
   color: black;
-  font-weight: bold;
+ 
+  flex-grow: 1;
   }
   /*https://www.w3schools.com/css/css_link.asp*/
   .button-nav:hover{
@@ -138,15 +151,18 @@ body {
     color: #03B8C9;
   }
   .nav-list{
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
     flex-direction: row;
     list-style: none;
-    padding-bottom: 8rem;
-    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.664);
+    padding: 15px;
+    margin: 0px;
+    justify-content: space-between;
     flex-wrap: wrap;
-    /* flex-grow: 1; */
-    /* padding-left: 24rem;
-    padding-right: 24rem; */
+    color: rgb(223, 223, 223);
   }
 
   .button-form{
@@ -195,6 +211,22 @@ body {
       outline: none;
     }
 
+  .nav-list div p {
+      
+   margin: 0px;
+   font-family: 'Fuji-Light';
+   font-size: 1em;
+}
+
+  .nav-list div a {
+    color: rgb(223, 223, 223);
+      padding-left: 2rem;
+      padding-right: 2rem;
+      font-size: 1em;
+      font-family: 'Fuji-Light';
+  }
+  
+ 
   header h1{
     font-family: 'Fuji-Bold';
     font-size: 3.5rem;
@@ -213,4 +245,7 @@ body {
   h2{
     font-size: 3rem;
     font-family: 'Fuji-Bold';
+  }
+  h3 {
+    font-size: 1.5rem;
   }
