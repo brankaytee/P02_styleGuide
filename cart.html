@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
@@ -14,16 +15,20 @@
           <div>
             <p>Bar Candy </p>
           </div>
-          <div>
-            <a href="index.html#about" class="button-nav">About</a>
+          <div class = "rightmenu" id = "myMenu">
+            <a href="index.html" class="button-nav">About</a>
 
-            <a href="index.html#text_elements" class="button-nav">Events</a>
+            
 
-            <a href="index.html#products" class="button-nav">Products</a>
+            <a href="#products" class="button-nav">Products</a>
 
-            <a href=index.html#contact class="button-nav">Contacts</a>
-
+            
+            <a href="#contact" class="button-nav">Contact</a>
             <a href="cart.html" class="button-nav">Cart</a>
+            
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
           </div>
         </div>
       </nav>
@@ -105,5 +110,6 @@
             </form>
         </div>
       </div>
+      <script src = "scripts.js"></script>
   </body>
 </html>
