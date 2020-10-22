@@ -466,7 +466,7 @@ body {
           }
             .payment-wrapper .payment-row:nth-child(3) .label-input{
               padding-right: 10.5rem;
-              padding-left: 5rem;
+              padding-left: 7rem;
             }
             .payment-wrapper .payment-row:nth-child(5){
               padding-top: 3rem;
@@ -480,7 +480,7 @@ body {
             .payment-wrapper .payment-row .label-input{
               display: flex;
               flex-direction: column;
-              padding: 0 3rem 1rem 3rem;
+              padding: 0 3rem 1rem 5rem;
             }
         .payment-header{
           text-align: center;
