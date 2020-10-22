@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Product Listing Page</title>
+    <meta charset="utf-8">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-list">
+          <div>
+            <p>Bar Candy </p>
+          </div>
+          <div>
+            <a href="index.html#about" class="button-nav">About</a>
+
+            <a href="index.html#text_elements" class="button-nav">Events</a>
+
+            <a href="index.html#products" class="button-nav">Products</a>
+
+            <a href=index.html#contact class="button-nav">Contacts</a>
+
+            <a href="cart.html" class="button-nav">Cart</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+      <div class="payment-header">
+        <h1>Payment Form</h1>
+      </div>
+      <div class="payment-wrapper">
+
+        <div class="payment-row">
+          <div class="label-input">
+            <div class="row-label">
+              <label for="fName">First Name</label>
+            </div>
+            <div class="row-input">
+              <input type="text" id="fName" name="fName" class="text-input">
+            </div>
+          </div>
+          <div class="label-input">
+            <div class="row-label">
+              <label for="lName">Last Name</label>
+            </div>
+            <div class="row-input">
+              <input type="text" id="lName" name="lName" class="text-input">
+            </div>
+          </div>
+        </div>
+
+        <div class="payment-row">
+          <div class="label-input">
+            <div class="row-label">
+              <label for="phone">Phone Number</label>
+            </div>
+            <div class="row-input">
+              <input type="tel" id="phone" name="phone" class="text-input">
+            </div>
+          </div>
+          <div class="label-input">
+            <div class="row-label">
+              <label>Email</label>
+            </div>
+            <div class="row-input">
+              <input type="text" id="emailPayment" name="emailPayment" class="text-input">
+            </div>
+          </div>
+        </div>
+
+        <div class="payment-row">
+          <div class="label-input">
+            <div class="row-label">
+              <label for="country">Country</label>
+            </div>
+            <div class="row-input">
+              <select name="country" id="country">
+                <option value="Canada">Canada</option>
+              </select>
+            </div>
+          </div>
+          <div class="label-input">
+            <div class="row-label">
+              <label for="province">Province</label>
+            </div>
+            <div class="row-input">
+              <select name="province" id="province">
+                <option value="BC">British Columbia</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="payment-row">
+          <div class="label-input">
+            <div class="row-label">
+              <label for="address">Address</label>
+            </div>
+            <div class="row-input">
+              <input type="text" id="address" name="address" class="text-input">
+            </div>
+          </div>
+          <div class="label-input">
+            <div class="row-label">
+              <label for="postal">Postal Code</label>
+            </div>
+            <div class="row-input">
+              <input type="text" id="postal" name="postal" class="text-input">
+            </div>
+          </div>
+        </div>
+
+        <div class="payment-row">
+          <div class="label-input">
+            <div class="row-label">
+              <label for="visa">Visa</label>
+            </div>
+            <div class="row-input">
+              <input type="radio" id="visa" name="payment" value="visa" class="text-input">
+            </div>
+          </div>
+          <div class="label-input">
+            <div class="row-label">
+              <label for="mastercard">Mastercard</label>
+            </div>
+            <div class="row-input">
+              <input type="radio" id="mastercard" name="payment" value="mastercard" class="text-input">
+            </div>
+          </div>
+          <div class="label-input">
+            <div class="row-label">
+              <label for="paypal">Paypal</label>
+            </div>
+            <div class="row-input">
+              <input type="radio" id="paypal" name="payment" value="paypal" class="text-input">
+            </div>
+          </div>
+        </div>
+
+        <div class="payment-row">
+          <div class="label-input">
+            <div class="row-label">
+              <label for="credit">Credit Card</label>
+            </div>
+            <div class="row-input">
+              <input type="text" id="credit" name="credit" class="text-input">
+            </div>
+          </div>
+          <div class="label-input">
+            <div class="row-label">
+              <label for="cvc">CVC</label>
+            </div>
+            <div class="row-input">
+              <input type="text" id="cvc" name="cvc" class="text-input">
+            </div>
+          </div>
+          <div class="label-input">
+            <div class="row-label">
+              <label for="months">Month</label>
+            </div>
+            <div class="row-input">
+                <select name="months" id="months">
+                  <option value="01">01</option>
+                  <option value="02">02</option>
+                  <option value="03">03</option>
+                  <option value="04">04</option>
+                  <option value="05">05</option>
+                  <option value="06">06</option>
+                  <option value="07">07</option>
+                  <option value="08">08</option>
+                  <option value="09">09</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+              </select>
+            </div>
+          </div>
+          <div class="label-input">
+            <div class="row-label">
+              <label for="months">Year</label>
+            </div>
+            <div class="row-input">
+              <select name="years" id="years">
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="payment-row">
+          <div class="label-input">
+            <div class="row-input">
+              <button type="submit" class="button-form-reset" onclick="cart.html">
+                Back to Cart
+              </button>
+            </div>
+          </div>
+          <div class="label-input">
+            <div class="row-input">
+              <button type="submit" class="button-form" onclick="#">
+                Confirm Payment
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </body>
+</html>
