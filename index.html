@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>P01 - Style Guide Template</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/main.css" rel="stylesheet" />
     <link href="css/grid.css" rel="stylesheet" />
     <script src="scripts.js"></script>
@@ -17,14 +17,17 @@
           <div>
             <p>Bar Candy </p>
           </div>
-          <div>
+          <div class = "rightmenu" id = "myMenu">
             <a href="#about" class="button-nav">About</a>
 
             <a href="#text_elements" class="button-nav">Events</a>
 
-            <a href="products.html" class="button-nav">Products</a>
+            <a href="#products" class="button-nav">Products</a>
 
-            <a href="cart.html" class="button-nav">Contacts</a>
+            <a href="#contact" class="button-nav">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
           </div>
         </div>
       </nav>
@@ -117,5 +120,6 @@
         <p>test</p>
       </div>
     </div>
+    <script src = "scripts.js"></script>
   </body>
 </html>
