@@ -348,6 +348,146 @@ body {
       background-color: #e5e5e5;
       /* background-color: #f2e0e0; */
     }
+    .img-link:hover{
+      opacity: 0.75;
+    }
+    .img-link:focus{
+      opacity: 0.75;
+    }
+
+    /* cart checkout page */
+    .cart-wrapper{
+      padding-top: 8rem;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+      .cart-heading h1{
+        padding-top: 8rem;
+        text-align: center;
+        text-align: center;
+        padding-bottom: 3rem;
+        padding-bottom: 3rem;
+        font-family: 'Fuji-Bold';
+      }
+      .cart-wrapper .product-text{
+        padding-right: 3rem;
+      }
+      .cart-wrapper .product-info{
+        box-sizing: border-box;
+        flex-basis: 50%;
+        /* background-color: #f8f8f8; */
+        display: flex;
+        justify-content: space-around;
+        min-width: 30rem;
+        flex-wrap: wrap;
+        padding-left: 3rem;
+      }
+        .cart-wrapper .product-info img{
+          min-width: 25rem;
+          max-width: 25rem;
+          padding-bottom: 3rem;
+          padding-right: 3rem;
+        }
+        .cart-wrapper .product-info h3{
+          padding-top: 3rem;
+          font-family: 'Fuji-Bold';
+          padding-bottom: 4rem;
+        }
+        .cart-wrapper .product-info h4{
+          padding-top: 9rem;
+          font-family: 'Fuji-Bold';
+          font-size: 1.5rem;
+        }
+        .cart-wrapper .product-info p{
+          font-size: 1.5rem;
+        }
+      .cart-wrapper .price-summary{
+        box-sizing: border-box;
+        /* background-color: #f8f8f8; */
+        flex-basis: 25%;
+        justify-content: center;
+        min-width: 30rem;
+      }
+        .cart-wrapper .price-summary h3{
+          padding-top: 3rem;
+          padding-left: 3rem;
+          padding-bottom: 2rem;
+          font-family: 'Fuji-Bold';
+        }
+        .cart-wrapper .price-summary p{
+          padding-left: 3rem;
+          font-size: 1.5rem;
+        }
+        .cart-wrapper .price-summary button{
+          margin-left: 3rem;
+          margin-right: auto;
+          margin-top: 2rem;
+          width: 80%;
+          margin-bottom: 3rem;
+        }
+        @media screen and (max-width: 50rem){
+          .cart-wrapper .product-info img{
+            padding-bottom: 0rem;
+          }
+          .cart-wrapper .product-info h3{
+            padding-bottom: 0rem;
+            padding-top: 0rem;
+          }
+        }
+
+        /* payment form */
+        .payment-wrapper{
+          display: flex;
+          align-content: center;
+          /* flex-direction: column; */
+          flex-wrap: wrap;
+        }
+          .payment-header h1{
+            padding-top: 8rem;
+          }
+          .payment-wrapper .payment-row{
+            display: flex;
+            box-sizing: border-box;
+            width: 100%;
+            justify-content: center;
+            padding-bottom: 1rem;
+            padding-right: 3rem;
+            padding-left: 3rem;
+          .payment-form-wrapper h3{
+            padding-bottom: 3rem;
+            font-family: 'Fuji-Bold';
+          }
+        }
+          @media screen and (max-width: 50rem){
+            .payment-wrapper .payment-row{
+              flex-direction: column;
+            }
+          }
+            .payment-wrapper .payment-row:nth-child(3) .label-input{
+              padding-right: 10.5rem;
+              padding-left: 5rem;
+            }
+            .payment-wrapper .payment-row:nth-child(5){
+              padding-top: 3rem;
+              padding-bottom: 1rem;
+            }
+            .payment-wrapper .payment-row:nth-child(7){
+              justify-content: space-between;
+              padding-top: 5rem;
+              padding-bottom: 4rem;
+            }
+            .payment-wrapper .payment-row .label-input{
+              display: flex;
+              flex-direction: column;
+              padding: 0 3rem 1rem 3rem;
+            }
+        .payment-header{
+          text-align: center;
+          padding-bottom: 3rem;
+          padding-bottom: 3rem;
+          font-family: 'Fuji-Bold';
+        }
 
 
   header h1{
