@@ -361,7 +361,7 @@ body {
   flex-direction: row;
   list-style: none;
   background-color: rgba(0, 0, 0, 0.664);
-  padding: 15px;
+ 
 
   justify-content: space-between;
   flex-wrap: wrap;
@@ -427,7 +427,7 @@ body {
 
 .nav-list div a {
   color: rgb(223, 223, 223);
-
+  
   font-size: 1em;
   font-family: 'Fuji-Light';
   margin-right: 10px;
