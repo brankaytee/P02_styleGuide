@@ -134,6 +134,7 @@ body {
       display: flex;
       justify-content: space-around;
       flex-direction: column;
+      /* background-color: blue; */
     }
       #events .bottom-side .question-card{
         box-sizing: border-box;
@@ -625,8 +626,8 @@ header h1 {
             width: 100%;
             justify-content: center;
             padding-bottom: 1rem;
-            padding-right: 3rem;
-            padding-left: 3rem;
+            /* padding-right: 3rem;
+            padding-left: 3rem; */
           .payment-form-wrapper h3{
             padding-bottom: 3rem;
             font-family: 'Fuji-Bold';
