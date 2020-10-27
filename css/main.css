@@ -60,7 +60,7 @@ body {
 
   display: flex;
   justify-content: space-around;
-  background-color: #ebebeb;
+  background-color: white;
   padding-top: 10rem;
   padding-bottom: 10rem;
   padding-left: 10rem;
@@ -154,7 +154,7 @@ body {
         }
 
 #products {
-  background-color: #ebebeb;
+  background-color: white;
   display: flex;
   justify-content: space-around;
   padding-top: 10rem;
@@ -162,10 +162,16 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
-
-#products .product-listing-elements button {
-  margin-top: 3rem;
-}
+  #products p{
+    color: black;
+    font-weight: bold;
+  }
+  #products label{
+    font-weight: bold;
+  }
+  #products .product-listing-elements button {
+    margin-top: 3rem;
+  }
 
 #testimonial {
   color: white;
