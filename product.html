@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>P01 - Style Guide Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/grid.css" rel="stylesheet" />
+    <script src="scripts.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/fe147576fd.js" crossorigin="anonymous"></script>
+   </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="nav-list">
+          <div>
+            <p>Bar Candy</p>
+
+          </div>
+          <div class = "rightmenu" id = "myMenu">
+
+            <a href="index.html#about" class="button-nav">About</a>
+
+            <a href="index.html#events" class="button-nav">Events</a>
+
+            <a href="index.html#products" class="button-nav">Products</a>
+
+
+            <a href="index.html#contact" class="button-nav">Contact</a>
+            <a href="cart.html" class="button-nav">Cart</a>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+  <div class="product-description-wrapper">
+    <div class=left-side>
+
+      <div class="images">
+        <img src="img/product6.jpg" alt="Product">
+      </div>
+
+    </div>
+
+    <div class="right-side">
+
+      <div class="name">
+        <h3>Chocolate Champagne Glass</h3>
+      </div>
+
+      <div class="description">
+        <p>BAR CANDY® Edible Glasses are made from Belgian Chocolate without additives or preservatives.This patented item was developed by award winning mixologist Liz Green and was included in Martha Stewart TOP 5 BEST WEDDING TRENDS on Fox news, nominated twice Best New Product (Bizbash), and has garnered the attention of Colin Cowie, Bobby Flay and Kim Kardashian, to name a few.</p>
+      </div>
+
+      <div class="price">
+        <p>$X.XX</p>
+      </div>
+
+      <div class="quantity">
+        <form class="counter">
+          <label>Quantity</label>
+          <select name="quantity" id="quantity2">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+          </select>
+        </form>
+      </div>
+
+      <div class="add-button">
+        <button type="button" class="button-form" onclick="payment.html">Add to Cart</button>
+      </div>
+
+      <div class="back-button">
+        <button type="button" class="button-form-reset" onclick="payment.html">Return to Products</button>
+      </div>
+
+    </div>
+  </div>
+  </body>
+</html>
