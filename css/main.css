@@ -385,7 +385,7 @@ body {
           #contact .left-side button:hover{
             /* background-color:#505050; */
             color: white;
-            background-color: #01363b;
+            background-color: #002326;
             border: none;
             outline: none;
           }
@@ -419,7 +419,7 @@ body {
           #contact .right-side button:hover{
             /* background-color:#505050; */
             color: white;
-            background-color: #01363b;
+            background-color: #002326;
             border: none;
             outline: none;
           }
@@ -523,7 +523,7 @@ body {
 
 .button-form-reset {
   color: white;
-  background-color: #3f3f3f;
+  background-color: #01626b;
   /* background-color: #858585; */
   border: none;
   padding: 0.5rem;
@@ -534,14 +534,14 @@ body {
 
 .button-form-reset:hover {
   /* background-color:#505050; */
-  background-color: #656565;
+  background-color: #01363b;
   border: none;
   outline: none;
 }
 
 .button-form-reset:focus {
   /* background-color:#505050; */
-  background-color: #656565;
+  background-color: #01363b;
   border: none;
   outline: none;
 }
