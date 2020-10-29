@@ -721,7 +721,7 @@ header h1 {
 }
 
 .cart-wrapper .product-info img {
-  min-width: 25rem;
+  min-width: 15rem;
   max-width: 25rem;
   padding-bottom: 3rem;
   padding-right: 3rem;
@@ -772,15 +772,35 @@ header h1 {
   margin-bottom: 3rem;
 }
 
-@media screen and (max-width: 50rem) {
-  .cart-wrapper .product-info img {
-    padding-bottom: 0rem;
+@media screen and (max-width: 700px) {
+  .cart-wrapper {
+    justify-content: center;  
   }
 
   .cart-wrapper .product-info h3 {
     padding-bottom: 0rem;
     padding-top: 0rem;
   }
+  .cart-wrapper .price-summary h3 {
+    padding-top: 0rem;
+    font-family: 'Fuji-Bold';
+    padding-bottom: 0rem;
+  }
+  .cart-wrapper .product-info img {
+    padding-bottom: 0rem;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 80%;
+  }
+
+  .cart-wrapper .product-info h3 {
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+  }
+}
+
+@media screen and (max-width: 50rem) {
+  
 }
 
 /* payment form */
