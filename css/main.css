@@ -595,6 +595,14 @@ body {
 /* Used W3Schools to learn about this */
 
 @media screen and (max-width: 700px) {
+  .button-nav {
+    text-decoration: none;
+    /* color: #858585; */
+    color: black;
+    margin-right: 40px;
+    flex-grow: 1;
+    margin-top:
+  }
   .nav-list {
     font-size: 30px;
   }
@@ -637,7 +645,7 @@ body {
   .rightmenu.responsive a {
     float: none;
     display: block;
-    text-align: left;
+    text-align: right;
 
   }
 }
