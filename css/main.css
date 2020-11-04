@@ -324,6 +324,9 @@ body {
       padding-left: 1rem; */
       text-align: center;
     }
+    #contact i:hover{
+      color: #002326;
+    }
     #contact a{
       text-decoration: none;
       color: white;
@@ -369,6 +372,20 @@ body {
       justify-content: space-around;
       flex-wrap: wrap;
     }
+      #contact .wrapper .discount-section{
+        text-align: center;
+      }
+      #contact .wrapper .links{
+        padding-top: 6rem;
+        text-align: center;
+      }
+        #contact .wrapper .links a{
+          font-weight: bold;
+          font-size: 1rem;
+        }
+        #contact .wrapper .links a:hover{
+          color: #002326;
+        }
     @media screen and (max-width: 700px) {
       #contact .wrapper {
       flex-direction: column;
