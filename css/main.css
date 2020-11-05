@@ -1098,3 +1098,12 @@ h3 {
     /* color: white; */
   }
 }
+
+/* citations */
+#citations{
+
+}
+  #citations h2{
+    padding-top: 10rem;
+    color: #03B8C9;
+  }
