@@ -1183,6 +1183,13 @@ header h1 {
 }
 
 @media screen and (max-width: 700px) {
+  .product-description-wrapper .left-side textarea {
+    resize: none;
+    outline: 2px solid #b3b3b3;
+    border: none;
+    width: 20rem;
+    height: 5rem;
+  }
   .product-description-wrapper .right-side {
     padding: 10px;
     width: auto;
@@ -1201,13 +1208,14 @@ header h1 {
     flex-direction: column;
     text-align: center;
     padding-top: 7rem;
+    width: auto;
   }
 
   .product-description-wrapper .left-side {
     padding: 0px;
     margin: 0px;
     padding-top: 0rem;
-    
+    width: auto;
   }
 
   .product-description-wrapper .right-side .description p {
@@ -1234,11 +1242,19 @@ header h1 {
   }
 
   .product-description-wrapper .right-side button {
-    margin-top: 1rem;
-    width: 100%;
+    margin-top: 0px;
+    width: auto;
+  }
+  .product-description-wrapper .right-side .add-button {
+    margin-top: 0rem;
+    width: auto;
   }
 }
 @media screen and (max-width: 1200px) {
+  .product-description-wrapper .right-side .add-button {
+    margin-top: 0rem;
+    width: auto;
+  }
   .product-description-wrapper .right-side {
     padding: 10px;
     width: auto;
