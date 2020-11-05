@@ -1,25 +1,491 @@
-/*
-  STYLE GUIDE STYLING
-  Default styling for the style guide
-*/
-/* Fonts
-*/
+html::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+  /* font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) );  */
+}
+
+body {
+  margin: 0px;
+  position: absolute;
+  font-size: 1.4em;
+}
+
+
+/* Main Flex Content */
+
+.maincontainer {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  display: flex;
+  height: auto;
+  width: auto;
+}
+
+.section {
+  width: auto;
+  background-color: grey;
+  padding: 40px;
+
+}
+
+
+#hero {
+  padding-top: 6em;
+  padding-bottom: 6em;
+  background-color: #03B8C9;
+  height: auto;
+  font-size: 0.75em;
+  text-align: center;
+  color: white;
+  background-image: url("../img/herobackdrop.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  box-shadow: inset 0 0 0 1000px rgba(3, 184, 201, 0.9);
+}
+  #hero a{
+    color: white;
+  }
+
+@media screen and (max-width: 700px) {
+  #hero h1 {
+    font-size: 40px;
+  }
+
+  #hero p {
+    font-size: 20px;
+  }
+}
+
+
+
+#about {
+
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#about .left-side {
+  box-sizing: border-box;
+  flex-basis: 50%;
+
+}
+
+#about .left-side img {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#about .right-side {
+  box-sizing: border-box;
+  flex-basis: 50%;
+
+  font-size: 0.5em;
+}
+
+#about .right-side p {
+  /* width: 40rem; */
+}
+#about h2{
+  color: #03B8C9;
+  font-size: 2.5rem;
+}
+
+
+
+
+#events {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 5rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: white;
+  /* background-color: #03B8C9;
+  background-image: url("../img/herobackdrop.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  box-shadow: inset 0 0 0 1000px rgba(3, 184, 201, 0.9); */
+}
+
+  #events .header{
+    text-align: center;
+    padding-bottom: 5rem;
+  }
+  #events .header h2{
+    color: #03B8C9;
+  }
+  #events .top-side{
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    /* background-color: green; */
+  }
+
+  #events .top-side .event-card{
+    box-sizing: border-box;
+    flex-basis: auto;
+    text-align: center;
+    /* background-color: blue; */
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    margin-right: 2%;
+    margin-left: 2%;
+    border: 3px solid #03B8C9;
+    border-radius: 20px;
+    width: 50%;
+    height: 28rem;
+  }
+  #events i{
+    font-size: 3rem;
+    color: #03B8C9;
+    padding-bottom: 3rem;
+  }
+  #events .top-side .event-card:nth-child(2){
+      /* padding-bottom: 7.8rem; */
+  }
+  #events .top-side .event-card:nth-child(3){
+      /* padding-bottom: 6.5rem; */
+  }
+    #events .top-side .event-card img{
+      width: 50%;
+      height: auto;
+    }
+    #events h2{
+      color: black;
+      /* text-align: center; */
+    }
+    #events .top-side .event-card h3{
+      color: #03B8C9;
+      font-size: 2rem;
+      font-family: 'Fuji-Bold';
+      /* width: 30rem; */
+    }
+    #events .top-side .event-card h4{
+      color: #03B8C9;
+      font-size: 1.5rem;
+    }
+    #events .top-side .event-card p{
+      /* color: #03B8C9; */
+      color: black;
+      font-weight: bold;
+      width: 75%;
+      margin: 0 auto;
+      text-align: left;
+      font-size: 1rem;
+      /* padding-top: 2rem; */
+    }
+    @media screen and (max-width: 700px) {
+      #events .top-side {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+      }
+      #events .top-side .event-card {
+        width: auto;
+        margin-bottom: 20px;
+      }
+      #events {
+        padding-top: 3em;
+        padding-bottom: 3em;
+      }
+    }
+
+#products {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-image: url("../img/herobackdrop.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  box-shadow: inset 0 0 0 1000px rgba(3, 184, 201, 0.9);
+  font-family: 'PanBlack'; */
+}
+#products button{
+  width: 89%;
+}
+#products h3{
+  font-size: 1.5rem;
+}
+#products h2{
+  color: #03B8C9;
+}
+#products p {
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}
+#products label{
+  font-size: 1rem;
+}
+
+#products label {
+  font-weight: bold;
+}
+
+#products .product-listing-elements button {
+  margin-top: 2.5rem;
+}
+
+#products img{
+  width: 89%;
+}
+
+@media screen and (max-width: 700px) {
+  #products {
+    flex-direction: column;
+    padding-top: 2em;
+    text-align: center;
+
+  }
+
+  .product-listing-elements {
+    padding: 20px;
+    background-color: rgb(241, 241, 241);
+    border: 5px solid rgb(224, 224, 224);
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+
+  #products h2 {
+    margin-bottom: 20px;
+    font-size: 3rem
+  }
+}
+
+#testimonial {
+  color: white;
+  text-align: center;
+  padding: 10%;
+  background-image: url("../img/herobackdrop.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  box-shadow: inset 0 0 0 1000px rgba(3, 184, 201, 0.9);
+  font-family: 'PanBlack';
+
+}
+
+#testimonial.p {}
+
+#testimonial.p {}
+
+  #contact {
+    background-image: url("../img/herobackdrop.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    box-shadow: inset 0 0 0 1000px rgba(3, 184, 201, 0.9);
+  }
+    #contact i{
+      color: white;
+      font-size: 1.5rem;
+      /* padding-right: 1rem;
+      padding-left: 1rem; */
+      text-align: center;
+    }
+    #contact i:hover{
+      color: #002326;
+    }
+    #contact a{
+      text-decoration: none;
+      color: white;
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+    #contact .contact-info{
+      text-align: center;
+      /* background-color: #03B8C9; */
+      /* padding-top: 1rem; */
+      /* padding-bottom: 1rem; */
+    }
+      #contact .contact-info h3{
+        /* padding-bottom: 1rem; */
+        margin-top: 4.5rem;
+      }
+      #contact .contact-info h4{
+        /* padding-bottom: 1rem; */
+        /* padding-top: 1.5rem; */
+      }
+      #contact .contact-info p{
+      }
+    #contact .discount-section{
+
+    }
+
+    #contact p{
+      color: white;
+    }
+    #contact h3{
+      color: white;
+      text-align: center;
+      padding-top: 3rem;
+      padding-bottom: 0.5rem;
+    }
+    #contact h2{
+      text-align: center;
+      color: white;
+    }
+    #contact .wrapper{
+      display: flex;
+      /* flex-direction: column; */
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+      #contact .wrapper .discount-section{
+        text-align: center;
+      }
+      #contact .wrapper .links{
+        padding-top: 6rem;
+        text-align: center;
+      }
+        #contact .wrapper .links a{
+          font-weight: bold;
+          font-size: 1rem;
+        }
+        #contact .wrapper .links a:hover{
+          color: #002326;
+        }
+    @media screen and (max-width: 700px) {
+      #contact .wrapper {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      }
+      #contact .left-side textarea{
+        width: 90%;
+      }
+
+    }
+      #contact .left-side{
+        /* display: flex;
+        flex-direction: column; */
+      }
+        #contact .left-side input{
+          margin-bottom: 2.5rem;
+        }
+        #contact .left-side button{
+          color: white;
+          /* background-color:#3f3f3f; */
+          background-color: #01444a;
+          border: none;
+          padding: 0.5rem;
+          padding-left: 4rem;
+          padding-right: 4rem;
+          margin-top: 0.5rem;
+          font-size: 1rem;
+        }
+          #contact .left-side button:hover{
+            /* background-color:#505050; */
+            color: white;
+            background-color: #002326;
+            border: none;
+            outline: none;
+          }
+        #contact .left-side .left-side-header h3{
+          text-align: left;
+        }
+        #contact .left-side textarea{
+          resize: none;
+          outline: none;
+          border: none;
+        }
+        #contact .left-side textarea:hover{
+          background-color: #e5e5e5;
+        }
+        #contact .left-side textarea:focus{
+          background-color: #e5e5e5;
+        }
+      #contact .right-side{
+      }
+        #contact .right-side button{
+          color: white;
+          /* background-color:#3f3f3f; */
+          background-color: #01444a;
+          border: none;
+          padding: 0.5rem;
+          padding-left: 2rem;
+          padding-right: 2rem;
+          margin-top: 0.5rem;
+          font-size: 1rem;
+        }
+          #contact .right-side button:hover{
+            /* background-color:#505050; */
+            color: white;
+            background-color: #002326;
+            border: none;
+            outline: none;
+          }
+          @media screen and (max-width: 700px) {
+          #contact .left-side .left-side-header h3{
+            text-align: center;
+          }
+        }
+
+
 
 @font-face {
   font-family: 'Fuji-Bold';
   src: url('fonts/fuji-bold-webfont.woff');
 }
+
 @font-face {
   font-family: 'Fuji-Light';
   src: url('fonts/fuji-light-webfont.woff');
 }
+
 @font-face {
   font-family: 'PanRegular';
   src: url('fonts/pangram-black-webfont.woff');
-}@font-face {
+}
+
+@font-face {
   font-family: 'PanBlack';
   src: url('fonts/pangram-regular-webfont.woff');
-}@font-face {
+}
+
+@font-face {
   font-family: 'PanLight';
   src: url('fonts/pangram-extralight-webfont.woff');
 }
@@ -29,119 +495,73 @@
 
 body {
   font-family: 'PanLight';
-  background-color: #f3f3f3
-}
-/* .interactive-elements-wrapper{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
-/* .text-elements-wrapper{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
-/* .branding-wrapper{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
-.link-text{
-  text-decoration: none;
-  color: #858585;
-  font-weight: bold;
-}
-  .link-text:hover{
-    /* color: #3f3f3f; */
-    color: #03B8C9;
-  }
-  .link-text:focus{
-    /* color: #3f3f3f; */
-    color: #03B8C9;
-  }
-
-.element{
-  margin-bottom: 6rem;
-  margin-top: 2rem;
-  flex: 1;
+  /* background-color: #f3f3f3; */
 }
 
-.button-nav{
+
+.button-nav {
   text-decoration: none;
   /* color: #858585; */
   color: black;
-  font-weight: bold;
-  }
-  /*https://www.w3schools.com/css/css_link.asp*/
-  .button-nav:hover{
-    /* color: #3f3f3f; */
-    color: #03B8C9;
-  }
-  .button-nav:focus{
-    /* color: #3f3f3f; */
-    color: #03B8C9;
-  }
-/*https://stackoverflow.com/questions/3397113/how-to-remove-focus-border-outline-around-text-input-boxes-chrome*/
-.text-input{
-  padding: 0.5em;
-  border: none;
-  background-color: #eeeeee;
-  margin-top: 0.5em;
-}
-  .text-input:focus{
-    outline: none;
-    border: none;
-    background-color: #e5e5e5;
-    /* background-color: #f2e0e0; */
-  }
-  .text-input:hover{
-    border: none;
-    background-color: #e5e5e5;
-    /* background-color: #f2e0e0; */
-  }
 
-.input-wrapper{
+  flex-grow: 1;
+}
+
+/*https://www.w3schools.com/css/css_link.asp*/
+.button-nav:hover {
+  /* color: #3f3f3f; */
+  color: #03B8C9;
+}
+
+.button-nav:focus {
+  /* color: #3f3f3f; */
+  color: #03B8C9;
+}
+
+.nav-list {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0.664);
+  padding: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+
+  color: rgb(223, 223, 223);
 }
 
-.label-item{
-  margin-top: 2rem;
-  font-weight: bold;
-}
-/*https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Typical_Use_Cases_of_Flexbox*/
-
-
-/*https://www.w3schools.com/css/css3_buttons.asp*/
-.button-form{
+.button-form {
   color: white;
   /* background-color:#3f3f3f; */
-  background-color :#03B8C9;
+  background-color: #03B8C9;
   border: none;
   padding: 0.5rem;
   padding-left: 4rem;
   padding-right: 4rem;
   font-size: 1rem;
 }
-  .button-form:hover{
-    /* background-color:#505050; */
-    background-color: #0294A1;
-    border: none;
-    outline: none;
-  }
-  .button-form:focus{
-    /* background-color:#505050; */
-    background-color: #0294A1;
-    border: none;
-    outline: none;
-  }
 
-.button-form-reset{
+.button-form:hover {
+  /* background-color:#505050; */
+  background-color: #0294A1;
+  border: none;
+  outline: none;
+}
+
+.button-form:focus {
+  /* background-color:#505050; */
+  background-color: #0294A1;
+  border: none;
+  outline: none;
+}
+
+.button-form-reset {
   color: white;
-  background-color:#3f3f3f;
+  background-color: #01626b;
   /* background-color: #858585; */
   border: none;
   padding: 0.5rem;
@@ -149,386 +569,532 @@ body {
   padding-right: 4rem;
   font-size: 1rem;
 }
-  .button-form-reset:hover{
-    /* background-color:#505050; */
-    background-color: #656565;
-    border: none;
-    outline: none;
-  }
-  .button-form-reset:focus{
-    /* background-color:#505050; */
-    background-color: #656565;
-    border: none;
-    outline: none;
-  }
 
-code{
-  display: flex;
-  background-color: #EEE;
-  padding: 0.5rem;
-}
-h1{
-  font-family: 'Fuji-Bold';
-  font-size: 3.5rem;
-}
-h3{
-  font-size: 2rem;
-  font-family: 'Fuji-Bold';
-}
-h2{
-  font-size: 2.5rem;
-  font-family: 'Fuji-Bold';
-  color: #03B8C9;
-}
-h4{
-  font-family: 'Fuji-Bold';
-  font-size: 1rem;
-  margin-bottom: 0.25rem;
-}
-
-.headers h2{
-  color: black;
-}
-
-.nav-list li{
-    padding-bottom: 2rem;
-    padding-right: 3rem;
-  }
-
-.nav-list-main{
-  display: flex;
-  list-style: none;
-}
-  .nav-list-main li{
-    padding-top: 2rem;
-    padding-right: 2rem;
-  }
-
-header h1{
-  font-family: 'Fuji-Bold';
-  font-size: 3.5rem;
-  text-align: center;
-  color: #03B8C9;
-  padding-bottom: 3rem;
-}
-/*https://www.w3schools.com/css/css_image_transparency.asp*/
-.img-link img{
-  max-width:25%;
-}
-.img-link:hover{
-  opacity: 0.75;
-}
-.img-link:focus{
-  opacity: 0.75;
-}
-
-.radio-input label{
-  cursor: pointer;
-}
-.radio-input input{
-  cursor: pointer;
-  /* display: none; */
-}
-
-.ordered-list{
-  list-style-type: upper-roman;
-  font-weight: bold;
-}
-  .ordered-list li{
-    padding: 1em;
-  }
-
-/*https://www.youtube.com/watch?v=QRHjKAq4x3I*/
-.product-card{
-  /* border: #e8e8e8 solid; */
-  /* border: black solid; */
-  background-color: #3f3f3f;
-  padding-bottom: 3rem;
-  text-align: center;
-}
-  .product-name h4{
-    font-size: 2rem;
-    margin-bottom: 3rem;
-    color: white;
-  }
-  .product-img img{
-    max-width: 70%;
-    /* border: black solid; */
-    margin-top: 5rem;
-}
-  .product-para{
-    color: white;
-    text-align: left;
-    margin-right: 5rem;
-    margin-left: 6rem;
-  }
-  .product-price small{
-    padding-bottom: 5rem;
-    color: white;
-  }
-  .product-quote{
-    margin-bottom: 1rem;
-  }
-  .product-details{
-    text-align: right;
-    margin-bottom: 5rem;
-    margin-right: 6rem;
-  }
-
-/* .payment-wrapper{
-  display: flex;
-  flex-direction: column;
-} */
-/* .payment-buttons{
-  display: flex;
-  justify-content: flex-start;
-  margin-bottom: 6rem;
-}
-  .payment-buttons .button-form-reset{
-    margin-right: 8rem;
-    margin-top: 10rem;
-  }
-  .payment-buttons .button-form{
-    margin-right: 2rem;
-    margin-top: 10rem;
-  } */
-
-/* .nameInfo{
-  display: flex;
-}
-
-.first-entry{
-  margin-right: 10em;
-}
-  .first-entry input{
-    width: 150%;
-  }
-
-.last-entry input{
-  width: 150%;
-}
-
-.addressInfo{
-  display: flex;
-  padding-bottom: 5rem;
-}
-
-.address-entry{
-  margin-right: 10rem;
-}
-  .address-entry input{
-    width: 150%;
-  }
-
-.postal-entry input{
-  width: 75%;
-}
-
-.contactInfo{
-  display: flex;
-}
-
-.phone-entry{
-  margin-right: 10rem;
-}
-  .phone-entry input{
-    width: 150%;
-  }
-
-.email-entry input{
-  width: 150%;
-}
-
-.locationInfo{
-  display: flex;
-}
-
-.country-entry{
-  margin-right: 8.5rem;
-}
-  .country-entry .label-item{
-    margin-bottom: 0.5rem;
-  }
-
-.province-entry .label-item{
-  margin-bottom: 0.5rem;
-}
-
-.cardType{
-  margin-bottom: 0rem;
-  align-items:  center;
-}
-
-.cardInfo{
-  display: flex;
-}
-
-.credit-entry{
-  margin-right: 10rem;
-}
-  .credit-entry input{
-    width: 150%;
-  }
-.cvc-entry{
-  margin-right: 1rem;
-}
-  .cvc-entry input{
-    width: 30%;
-  }
-
-.expiry-entry{
-  padding-top: 2rem;
-  display: flex;
-  flex-direction: column;
-}
-.expiry-entry .input-item{
-  margin-bottom: 1rem;
-  font-weight: bold;
-}
-
-.date-select{
-  display: flex;
-} */
-
-textarea{
-  background-color: #EEE;
-  width: 79%;
+.button-form-reset:hover {
+  /* background-color:#505050; */
+  background-color: #01363b;
   border: none;
+  outline: none;
 }
-  textarea:focus{
-    outline: none;
-    border: none;
-    background-color: #e5e5e5;
+
+.button-form-reset:focus {
+  /* background-color:#505050; */
+  background-color: #01363b;
+  border: none;
+  outline: none;
+}
+
+.nav-list div p {
+
+  font-family: 'Fuji-Light';
+  font-size: 1em;
+  margin: 0px;
+}
+
+.nav-list div a {
+  color: rgb(223, 223, 223);
+
+  padding-right: 1em;
+
+  font-size: 1em;
+  font-family: 'Fuji-Light';
+
+}
+
+.nav-list .rightmenu {
+  margin-right: 1%;
+
+}
+
+.rightmenu .icon {
+  display: none;
+}
+
+/* Used W3Schools to learn about this */
+
+@media screen and (max-width: 700px) {
+  .button-nav {
+    text-decoration: none;
+    /* color: #858585; */
+    color: black;
+    margin-right: 40px;
+    flex-grow: 1;
+    margin-top:
   }
-  textarea:hover{
-    border: none;
-    background-color: #e5e5e5;
-    /* background-color: #f2e0e0; */
-
-}
-.orderInfo .label-item{
-  margin-bottom: 0.5rem;
-}
-.quoteButton{
-  margin-top: 2rem;
-  margin-left: 29rem;
-}
-
-.quantityInfo{
-  margin-top: 3rem;
-}
-  .quantityInfo input{
-    width: 10%;
+  .nav-list {
+    font-size: 30px;
   }
 
-.quote-product-name h4{
-  font-size: 2rem;
-  margin-top: 2rem;
+  .rightmenu a {
+    display: none;
+  }
+
+  .rightmenu a.icon {
+    float: right;
+    display: block;
+  }
+
+  #about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #about img {
+    margin-bottom: 20px;
+  }
+
+  #events {
+    flex-direction: column;
+  }
 }
 
-#branding img{
- width: 100%;
+@media screen and (max-width: 700px) {
+
+  .rightmenu.responsive {
+    position: relative;
+  }
+
+  .rightmenu.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .rightmenu.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+
+  }
 }
 
-/*Product Listing Page*/
-.logo{
+header h1 {
+  font-family: 'Fuji-Bold';
+  font-size: 3.5rem;
+  text-align: center;
+  color: #03B8C9;
+  padding-bottom: 3rem;
+}
+
+
+
+
+
+.text-input {
+  padding: 0.5rem;
+  border: none;
+  background-color: #eeeeee;
+  margin-bottom: 1rem;
+  width: 13rem;
+}
+
+.text-input:focus {
+  outline: none;
+  border: none;
+  background-color: #e5e5e5;
+  /* background-color: #f2e0e0; */
+}
+
+.text-input:hover {
+  border: none;
+  background-color: #e5e5e5;
+  /* background-color: #f2e0e0; */
+}
+
+.img-link:hover {
+  opacity: 0.75;
+}
+
+.img-link:focus {
+  opacity: 0.75;
+}
+
+/* cart checkout page */
+.cart-wrapper {
+  padding-top: 8rem;
   display: flex;
-}
-  .logo img{
-    margin-left: auto;
-    margin-right: auto;
-    width: 20rem;
-    height: auto;
-    margin-bottom: 5rem;
-  }
-/*header navgiation for website*/
-.nav-item-line{
-  display: flex;
-}
-.right-of-nav img{
-  width: 2rem;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  background-color: white;
 }
 
-#citations{
+.cart-heading h1 {
+  padding-top: 8rem;
+  text-align: center;
+  text-align: center;
+  padding-bottom: 3rem;
+  padding-bottom: 3rem;
+  font-family: 'Fuji-Bold';
+}
+
+.cart-wrapper .product-text {
+  padding-right: 3rem;
+}
+
+.cart-wrapper .product-info {
+  box-sizing: border-box;
+  flex-basis: 50%;
+  /* background-color: #f8f8f8; */
+  display: flex;
+  justify-content: space-around;
+  min-width: 30rem;
+  flex-wrap: wrap;
+  padding-left: 3rem;
+  /* border: 3px solid #03B8C9; */
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  /* background-color: #03B8C9; */
+}
+
+.cart-wrapper .product-info img {
+  min-width: 15rem;
+  max-width: 25rem;
+  padding-bottom: 3rem;
+  padding-right: 3rem;
+}
+
+.cart-wrapper .product-info h3 {
+  padding-top: 3rem;
+  font-family: 'Fuji-Bold';
+  padding-bottom: 4rem;
+}
+
+.cart-wrapper .product-info h4 {
+  padding-top: 9rem;
+  font-family: 'Fuji-Bold';
+  font-size: 1.5rem;
+}
+
+.cart-wrapper .product-info p {
+  font-size: 1.5rem;
+}
+
+.cart-wrapper .price-summary {
+  box-sizing: border-box;
+  /* background-color: #f8f8f8; */
+  flex-basis: 25%;
+  justify-content: center;
+  min-width: 30rem;
+  /* border: 3px solid #03B8C9; */
+}
+
+.cart-wrapper .price-summary h3 {
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+  font-family: 'Fuji-Bold';
+}
+
+.cart-wrapper .price-summary p {
+  padding-left: 3rem;
+  font-size: 1.5rem;
+}
+
+.cart-wrapper .price-summary button {
+  margin-left: 3rem;
+  margin-right: auto;
+  margin-top: 2rem;
+  width: 80%;
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 700px) {
+  .cart-wrapper {
+    justify-content: center;
+  }
+
+  .cart-wrapper .product-info h3 {
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+  }
+  .cart-wrapper .price-summary h3 {
+    padding-top: 0rem;
+    font-family: 'Fuji-Bold';
+    padding-bottom: 0rem;
+  }
+  .cart-wrapper .product-info img {
+    padding-bottom: 0rem;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 80%;
+  }
+
+  .cart-wrapper .product-info h3 {
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+  }
+}
+
+@media screen and (max-width: 50rem) {
+
+}
+
+/* payment form */
+.payment-wrapper {
+  display: flex;
+  align-content: center;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+
+.payment-header h1 {
+  padding-top: 8rem;
+}
+
+.payment-wrapper .payment-row {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 1rem;
+  /* padding-right: 3rem;
+            padding-left: 3rem; */
+}
+
+.payment-form-wrapper h3 {
+  padding-bottom: 3rem;
+  font-family: 'Fuji-Bold';
+}
+
+
+@media screen and (max-width: 50rem) {
+  .payment-wrapper .payment-row {
+    flex-direction: column;
+  }
+}
+
+.payment-wrapper .payment-row:nth-child(3) .label-input {
+  padding-right: 10.5rem;
+  padding-left: 7rem;
+}
+
+.payment-wrapper .payment-row:nth-child(5) {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.payment-wrapper .payment-row:nth-child(7) {
+  justify-content: space-between;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+.payment-wrapper .payment-row .label-input {
   display: flex;
   flex-direction: column;
+  padding: 0 3rem 1rem 5rem;
 }
-#citations ul{
-  list-style: none;
-  box-sizing: border-box;
-  flex-wrap: wrap;
 
+.payment-header {
+  text-align: center;
+  padding-bottom: 3rem;
+  padding-bottom: 3rem;
+  font-family: 'Fuji-Bold';
 }
-@media screen and (max-width: 50rem){
-  #citations ul li{
-    width: 50%;
+
+/* product description */
+.product-description-wrapper{
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+  flex-wrap: wrap;
+  /* margin: 0 auto; */
+  width: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border: 3px solid #e0e0e0;
+}
+  .product-description-wrapper .left-side{
+    box-sizing: border-box;
+    /* background-color: blue; */
+    /* border: 3px solid #03B8C9; */
+    margin-right: 1rem;
+    margin-left: 1rem;
+    /* padding-top: 2.5rem; */
+    /* border: 3px solid #e0e0e0; */
+    padding: 1rem;
   }
-/*
-.element {
-  padding-bottom: 2rem;
-  border-top-width: 0.15rem;
-  border-top-style: solid;
-  border-top-color: black;
+    .product-description-wrapper .left-side img{
+      width: 45rem;
+      /* padding-top: 3rem;
+      padding-bottom: 3rem;
+      padding-right: 3rem;
+      padding-left: 3rem; */
+    }
+    .product-description-wrapper .left-side h3{
+      padding-bottom: 1rem;
+    }
+    .product-description-wrapper .left-side h4{
+      font-size: 1rem;
+    }
+    .product-description-wrapper .left-side i{
+      padding-bottom: 2rem;
+      color: #b3b3b3;
+    }
+    .product-description-wrapper .left-side i:hover{
+      padding-bottom: 2rem;
+      color: #03B8C9;
+    }
+    .product-description-wrapper .left-side textarea{
+      resize: none;
+      outline: 2px solid #b3b3b3;
+      border: none;
+      width: 30rem;
+      height: 5rem;
+    }
+    .product-description-wrapper .left-side button{
+      margin-top: 1rem;
+    }
+
+  .product-description-wrapper .right-side{
+    /* display: flex;
+    flex-direction: column; */
+    box-sizing: border-box;
+    /* background-color: green; */
+    /* border: 3px solid #03B8C9; */
+    padding-left: 5rem;
+    padding-right: 3rem;
+    /* padding-bottom: 3rem; */
+    /* border: 3px solid #e0e0e0; */
+  }
+    .product-description-wrapper .right-side h3{
+        font-family: 'Fuji-Bold';
+        /* font-size: 3rem; */
+        /* padding-bottom: 0.25rem; */
+    }
+    .product-description-wrapper .right-side .description p{
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+        width: 26rem;
+    }
+      .product-description-wrapper .right-side .price p{
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+      }
+
+    .product-description-wrapper .right-side form{
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 3.5rem;
+    }
+    .product-description-wrapper .right-side .average-rating{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 5rem;
+    }
+    .product-description-wrapper .right-side .average-rating p{
+      font-size: 1rem;
+      font-weight: bold;
+      color: #03B8C9;
+    }
+    .product-description-wrapper .right-side .average-rating i{
+      font-size: 2rem;
+      color: #03B8C9;
+    }
+    .product-description-wrapper .right-side label{
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 3rem;
+    }
+    .product-description-wrapper .right-side button{
+        margin-top: 3rem;
+        width: 100%;
+    }
+    .product-description-wrapper .right-side .add-button{
+        margin-top: 11rem;
+    }
+    @media screen and (max-width: 700px) {
+      .product-description-wrapper .left-side img {
+        width: 90%;
+      }
+      .product-description-wrapper{
+
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 7rem;
+      }
+      .product-description-wrapper .left-side{
+        padding: 0px;
+        margin: 0px;
+        padding-top: 0rem;
+      }
+      .product-description-wrapper .right-side .description p{
+        margin-bottom: 1rem;
+        width: auto;
+    }
+    .product-description-wrapper .right-side .price p{
+      font-weight: bold;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+  .product-description-wrapper .right-side form{
+      font-size: 1rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+  }
+  .product-description-wrapper .right-side label{
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+  }
+  .product-description-wrapper .right-side button{
+      margin-top: 1rem;
+      width: 100%;
+  }
+    }
+
+header h1 {
+  font-family: 'Fuji-Bold';
+  font-size: 3.5rem;
+  text-align: center;
+  color: #03B8C9;
+  padding-bottom: 3rem;
+}
+
+
+
+p {
+  font-size: 1.5em;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'Fuji-Bold';
 }
 
 h2 {
-  margin-top: 6rem;
+  font-size: 2em;
+  font-family: 'Fuji-Bold';
+  margin: 0px;
 }
 
 h3 {
-  font-style: italic;
-  margin-top: 1rem;
+  font-size: 2em;
 }
 
-h4 {
-  margin-bottom: 0.25rem;
+@media screen and (max-width: 700px) {
+
+  h3 {
+    font-size: 1em;
+  }
 }
 
-p {
-  margin-top: 0;
+@media screen and (min-width: 1200px) {
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  h4 {
+    font-size: 0.5rem;
+    /* color: white; */
+  }
 }
-
-nav a:hover, nav a:focus {
-  text-decoration: none;
-}
-
-code {
-  background-color: #EEE;
-  padding: 0.5rem;
-  display: block;
-}
-*/
-
-/*
-  INTERACTIVE ELEMENTS -------------------
-*/
-
-/* Styling for the navigation button */
-/*
-.button-nav {
-  display: inline-block;
-  padding: 0.5rem;
-  color: white;
-  background-color: rgb(50,50,50);
-  text-decoration: none;
-  transition-property: background-color;
-  transition-duration: 0.5s;
-}
-
-.button-nav:hover, .button-nav:focus {
-  background-color: rgb(200,200,200);
-}
-*/
-
-
-
-/*
-  TEXT ELEMENTS -------------------
-*/
-
-
-
-
-/*
-  COMBINED ELEMENTS -------------------
-*/
