@@ -1,47 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-
-    <meta charset="utf-8">
+<head>
+    <meta charset="utf-8" />
     <title>P01 - Style Guide Template</title>
-
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/grid.css" rel="stylesheet">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/grid.css" rel="stylesheet" />
+    <script src="scripts.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/fe147576fd.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
-
     <header>
-      <h1>Bar Candy - Style Guide</h1>
-    </header>
+      <nav>
+        <div class="nav-list">
+          <div>
+            <a href="index.html" class="button-nav">Bar Candy</a>
 
+          </div>
+          <div class = "rightmenu" id = "myMenu">
 
-      <nav class="nav">
-        <ul class="nav-list">
-          <li>
             <a href="#interactive_elements" class="button-nav">Interactive Elements</a>
-          </li>
-          <li>
+
             <a href="#text_elements" class="button-nav">Text Elements</a>
-          </li>
-          <!-- <li>
+
             <a href="#combined_elements" class="button-nav">Combined Elements</a>
-          </li> -->
-          <li>
-            <a href="products.html" class="button-nav">Product Listing Template</a>
-          </li>
-          <li>
+
+            <a href="product-listing-template.html" class="button-nav">Product Listing Template</a>
+
             <a href="cart.html" class="button-nav">Checkout Template</a>
-          </li>
-          <li>
+
             <a href="#citations" class="button-nav">Citations</a>
-          </li>
-        </ul>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </div>
       </nav>
+      <h1>Bar Candy Style-Guide</h1>
+    </header>
 
 
     <!-- INTERACTIVE ELEMENTS SECTION // -->
@@ -233,6 +232,268 @@
     </section>
     <!-- // TEXT ELEMENTS SECTION -->
 
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+      <section class="element">
+        <h3>Main Navigation</h3>
+      </section>
+
+      <section class="element">
+        <h3>Product/Service Listing</h3>
+        <div id="products" class="section">
+        <div class="product-listing-elements">
+          <a href="product.html" class="img-link">
+            <img src="img/herobackdrop.jpg" alt="Product" width = 70%; style = "max-width: 700px;min-width: 200px;">
+          </a>
+          <h3>Chocolate Champagne Glasses</h3>
+          <p>$X.XX /glass</p>
+          <form class="counter">
+            <label>Quantity</label>
+            <select name="quantity" id="quantity2">
+              <option value="5">5</option>
+              <option value="10">10</option>
+              <option value="15">15</option>
+              <option value="20">20</option>
+            </select>
+          </form>
+          <a href="product.html"><button type="button" class="button-form-reset" onclick="payment.html">View Description</button></a>
+          <button type="button" class="button-form" onclick="product.html">Add to Cart</button>
+        </div>
+
+      </div>
+      </section>
+
+      <section class="element-wide">
+        <h3>Payment Form</h3>
+        <div class="payment-wrapper">
+
+  <div class="payment-row">
+    <div class="label-input">
+      <div class="row-label">
+        <label for="fName">First Name</label>
+      </div>
+      <div class="row-input">
+        <input type="text" id="fName" name="fName" class="text-input">
+      </div>
+    </div>
+    <div class="label-input">
+      <div class="row-label">
+        <label for="lName">Last Name</label>
+      </div>
+      <div class="row-input">
+        <input type="text" id="lName" name="lName" class="text-input">
+      </div>
+    </div>
+  </div>
+
+  <div class="payment-row">
+    <div class="label-input">
+      <div class="row-label">
+        <label for="phone">Phone Number</label>
+      </div>
+      <div class="row-input">
+        <input type="tel" id="phone" name="phone" class="text-input">
+      </div>
+    </div>
+    <div class="label-input">
+      <div class="row-label">
+        <label>Email</label>
+      </div>
+      <div class="row-input">
+        <input type="text" id="emailPayment" name="emailPayment" class="text-input">
+      </div>
+    </div>
+  </div>
+
+  <div class="payment-row">
+    <div class="label-input">
+      <div class="row-label">
+        <label for="country">Country</label>
+      </div>
+      <div class="row-input">
+        <select name="country" id="country">
+          <option value="Canada">Canada</option>
+        </select>
+      </div>
+    </div>
+    <div class="label-input">
+      <div class="row-label">
+        <label for="province">Province</label>
+      </div>
+      <div class="row-input">
+        <select name="province" id="province">
+          <option value="BC">British Columbia</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="payment-row">
+    <div class="label-input">
+      <div class="row-label">
+        <label for="address">Address</label>
+      </div>
+      <div class="row-input">
+        <input type="text" id="address" name="address" class="text-input">
+      </div>
+    </div>
+    <div class="label-input">
+      <div class="row-label">
+        <label for="postal">Postal Code</label>
+      </div>
+      <div class="row-input">
+        <input type="text" id="postal" name="postal" class="text-input">
+      </div>
+    </div>
+  </div>
+
+  <div class="payment-row">
+    <div class="label-input">
+      <div class="row-label">
+        <label for="visa">Visa</label>
+      </div>
+      <div class="row-input">
+        <input type="radio" id="visa" name="payment" value="visa" class="text-input">
+      </div>
+    </div>
+    <div class="label-input">
+      <div class="row-label">
+        <label for="mastercard">Mastercard</label>
+      </div>
+      <div class="row-input">
+        <input type="radio" id="mastercard" name="payment" value="mastercard" class="text-input">
+      </div>
+    </div>
+    <div class="label-input">
+      <div class="row-label">
+        <label for="paypal">Paypal</label>
+      </div>
+      <div class="row-input">
+        <input type="radio" id="paypal" name="payment" value="paypal" class="text-input">
+      </div>
+    </div>
+  </div>
+
+  <div class="payment-row">
+    <div class="label-input">
+      <div class="row-label">
+        <label for="credit">Credit Card</label>
+      </div>
+      <div class="row-input">
+        <input type="text" id="credit" name="credit" class="text-input">
+      </div>
+    </div>
+    <div class="label-input">
+      <div class="row-label">
+        <label for="cvc">CVC</label>
+      </div>
+      <div class="row-input">
+        <input type="text" id="cvc" name="cvc" class="text-input">
+      </div>
+    </div>
+    <div class="label-input">
+      <div class="row-label">
+        <label for="months">Month</label>
+      </div>
+      <div class="row-input">
+          <select name="months" id="months">
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select>
+      </div>
+    </div>
+    <div class="label-input">
+      <div class="row-label">
+        <label for="months">Year</label>
+      </div>
+      <div class="row-input">
+        <select name="years" id="years">
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="payment-row">
+    <div class="label-input">
+      <div class="row-input">
+        <button type="submit" class="button-form-reset" onclick="cart.html">
+          Back to Cart
+        </button>
+      </div>
+    </div>
+    <div class="label-input">
+      <div class="row-input">
+        <button type="submit" class="button-form" onclick="#">
+          Confirm Payment
+        </button>
+      </div>
+    </div>
+  </div>
+
+</div>
+      </section>
+
+      <section class="element-wide">
+        <h3>Checkout Cart</h3>
+        <div class="cart-wrapper">
+      <div class="checkout-cards">
+        <div class="product-info">
+            <div class="product-img">
+              <a href="#" class="img-link">
+                <img src="img/product1.jpg" alt="image description">
+              </a>
+          </div>
+          <div class="product-text">
+            <h3>Chocolate Glasses</h3>
+            <p>$X.XX</p>
+            <form class="counter">
+              <label>Quantity</label>
+              <select name="quantity">
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+              </select>
+            </form>
+          </div>
+        </div>
+
+  </div>
+      <div class="price-summary">
+          <h3>Total:</h3>
+          <p>Sub-total:</p>
+          <p>Shipping:</p>
+          <form action="payment.html">
+            <!-- https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html -->
+            <button type="submit" class="button-form" onclick="#">Proceed to Payment</button>
+          </form>
+      </div>
+    </div>
+      </section>
+    </section>
+
     <section id="branding">
       <div class="branding-wrapper">
         <h2>Branding</h2>
@@ -250,8 +511,8 @@
         <p>A neutral color palette to allow the product images to standout. Potentially white and black to create a clean and classy atmosphere to reinforce the branding of the company.
         <p>Potential images would include the chocolate champagne glasses displayed at weddings, bars, parties, and high end restaurants. Want to potray the product in environments that it would be used in to reinforce branding.
         </p>
-        <h3>Persona</h3>
-          <img src="img/persona.png" alt="Persona">
+        <!-- <h3>Persona</h3>
+          <img src="img/persona.png" alt="Persona"> -->
       </section>
     </div>
 </section>

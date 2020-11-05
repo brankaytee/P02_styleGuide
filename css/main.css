@@ -117,6 +117,7 @@ body {
 }
 #about h2{
   color: #03B8C9;
+  font-size: 2.5rem;
 }
 
 
@@ -682,7 +683,7 @@ header h1 {
 .text-input {
   padding: 0.5rem;
   border: none;
-  /* background-color: #eeeeee; */
+  background-color: #eeeeee;
   margin-bottom: 1rem;
   width: 13rem;
 }
