@@ -11,7 +11,7 @@ body {
 
 html {
   -ms-overflow-style: none;
-  scrollbar-width: none;
+
 
 }
 
@@ -432,7 +432,7 @@ body {
       #contact .contact-info p{
       }
     #contact .discount-section{
-
+    }
 #contact a {
   text-decoration: none;
   color: white;
@@ -482,7 +482,7 @@ body {
       #contact .left-side textarea{
         width: 90%;
       }
-
+    }
 #contact .contact-info h3 {
   /* padding-bottom: 1rem; */
   margin-top: 4.5rem;
@@ -958,6 +958,10 @@ header h1 {
     padding-top: 0rem;
     font-family: 'Fuji-Bold';
     padding-bottom: 0rem;
+    margin-left: 3em;
+  }
+  .cart-wrapper .price-summary p  {
+   margin-left: 3em;
   }
 
   .cart-wrapper .product-info img {
@@ -1003,9 +1007,13 @@ header h1 {
 }
 
 
-@media screen and (max-width: 50rem) {
+@media screen and (max-width: 1200px) {
   .payment-wrapper .payment-row {
     flex-direction: column;
+  }
+  .payment-wrapper {
+    justify-content: center;
+    text-align: center;
   }
 }
 
@@ -1346,3 +1354,4 @@ h3 {
     padding-top: 10rem;
     color: #03B8C9;
   }
+    }
