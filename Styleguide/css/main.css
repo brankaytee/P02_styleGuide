@@ -275,7 +275,7 @@ body {
     flex-direction: column;
     padding-top: 2em;
     text-align: center;
-
+    padding: 0px;
   }
 
   .product-listing-elements {
@@ -612,7 +612,7 @@ body {
 
 /* Used W3Schools to learn about this */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1200px) {
   .button-nav {
     text-decoration: none;
     /* color: #858585; */
@@ -648,7 +648,7 @@ body {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1200px) {
 
   .rightmenu.responsive {
     position: relative;
@@ -857,9 +857,10 @@ header h1 {
 }
 
 
-@media screen and (max-width: 50rem) {
+@media screen and (max-width: 700px) {
   .payment-wrapper .payment-row {
     flex-direction: column;
+    padding: 0px;
   }
 }
 
