@@ -1558,3 +1558,43 @@ h3 {
     .product-description-button-reset a:hover{
       background-color: #01363b;
     }
+    @media screen and (max-width: 1200px) {
+
+      .product-description-button-form{
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+      }
+        .product-description-button-form a{
+          background-color: #03B8C9;
+          padding-right: 1em;
+          padding-left: 1em;
+          font-size: 1rem;
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+          color: white;
+          text-decoration: none;
+          font-weight: bold;
+          text-align: center;
+          /* margin-left: 3.1rem; */
+        }
+          .product-description-button-form a:hover{
+            background-color: #0294A1;
+          }
+      .product-description-button-reset{
+      
+      }
+        .product-description-button-reset a{
+          background-color: #01626b;
+          padding-right: 1em;
+          padding-left: 1em;
+          font-size: 1rem;
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+          color: white;
+          text-decoration: none;
+          font-weight: bold;
+        }
+          .product-description-button-reset a:hover{
+            background-color: #01363b;
+          }
+    }
