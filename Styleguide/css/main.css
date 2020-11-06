@@ -619,7 +619,7 @@ body {
     color: black;
     margin-right: 40px;
     flex-grow: 1;
-    margin-top:
+   
   }
   .nav-list {
     font-size: 30px;
@@ -811,6 +811,17 @@ header h1 {
     padding-top: 0rem;
     font-family: 'Fuji-Bold';
     padding-bottom: 0rem;
+    padding-left: 0px;
+  }
+  .cart-wrapper .price-summary p {
+
+    padding-left: 0px;
+  }
+  .cart-wrapper .price-summary{
+    width: auto;
+    text-align: center;
+    padding-left: 0px;
+    margin-bottom: 2em;
   }
   .cart-wrapper .product-info img {
     padding-bottom: 0rem;
@@ -857,7 +868,7 @@ header h1 {
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .payment-wrapper .payment-row {
     flex-direction: column;
     padding: 0px;
