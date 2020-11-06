@@ -131,3 +131,140 @@ p{
   font-size: 1rem;
   font-weight: bold;
 }
+
+
+#combined_elements .new-button-form{
+  margin-top: 2rem;
+}
+  #combined_elements .new-button-form a{
+    background-color: #03B8C9;
+    padding-right: 8.625em;
+    padding-left: 8.625em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  #combined_elements .new-button-form a:hover{
+    background-color: #0294A1;
+  }
+#combined_elements .new-button-reset{
+  margin-top: 5rem;
+}
+  #combined_elements .new-button-reset a{
+    background-color: #01626b;
+    padding-right: 7.5em;
+    padding-left: 7.5em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  #combined_elements .new-button-reset a:hover{
+    background-color: #01363b;
+  }
+
+#interactive_elements .new-button-form{
+  margin-bottom: 2rem;
+}
+  #interactive_elements .new-button-form a{
+    background-color: #03B8C9;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+    #interactive_elements .new-button-form a:hover{
+      background-color: #0294A1;
+    }
+    #interactive_elements .new-button-reset a{
+      background-color: #01626b;
+      padding-right: 10rem;
+      padding-left: 10rem;
+      font-size: 1rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+      #interactive_elements .new-button-reset a:hover{
+        background-color: #01363b;
+      }
+      #combined_elements .price-summary .new-button-form a{
+        background-color: #03B8C9;
+        padding-right: 7em;
+        padding-left: 7em;
+        font-size: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        text-align: center;
+        margin-left: 3.1rem;
+      }
+        #combined_elements .price-summary .new-button-form a:hover{
+          background-color: #0294A1;
+        }
+
+/* product listing buttons */
+.new-button-form-listing{
+  margin-top: 2rem;
+}
+  .new-button-form-listing a{
+    background-color: #03B8C9;
+    padding-right: 8.625em;
+    padding-left: 8.625em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .new-button-form-listing a:hover{
+    background-color: #0294A1;
+  }
+.new-button-reset-listing{
+  margin-top: 5rem;
+}
+  .new-button-reset-listing a{
+    background-color: #01626b;
+    padding-right: 7.5em;
+    padding-left: 7.5em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .new-button-reset-listing a:hover{
+    background-color: #01363b;
+  }
+
+  .new-button-form-cart a{
+    background-color: #03B8C9;
+    padding-right: 7em;
+    padding-left: 7em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 3.1rem;
+  }
+    .new-button-form-cart a:hover{
+      background-color: #0294A1;
+    }
