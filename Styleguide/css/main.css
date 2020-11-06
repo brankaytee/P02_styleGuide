@@ -11,7 +11,7 @@ body {
 
 html {
   -ms-overflow-style: none;
-  scrollbar-width: none;
+  /* scrollbar-width: none; */
 
 }
 
@@ -619,7 +619,7 @@ body {
     color: black;
     margin-right: 40px;
     flex-grow: 1;
-    margin-top:
+    /* margin-top: */
   }
   .nav-list {
     font-size: 30px;
