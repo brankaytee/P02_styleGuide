@@ -296,6 +296,9 @@ body {
 #products button {
   width: 89%;
 }
+#products a {
+  width: 89%;
+}
 
 #products h3 {
   font-size: 1.5rem;
@@ -319,7 +322,7 @@ body {
   font-weight: bold;
 }
 
-#products .product-listing-elements button {
+#products .product-listing-elements button,a { 
   margin-top: 2.5rem;
 }
 
@@ -385,10 +388,21 @@ body {
   font-family: 'PanBlack';
 
 }
+#testimonial2 {
+  color: white;
+  text-align: center;
+  padding: 10%;
+  background-image: url("../img/herobackdrop.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  box-shadow: inset 0 0 0 1000px rgba(3, 184, 201, 0.9);
+  font-family: 'PanBlack';
 
-#testimonial.p {}
+}
 
-#testimonial.p {}
+
 
 #contact {
   background-image: url("../img/herobackdrop.jpg");
@@ -688,6 +702,7 @@ body {
   padding-left: 4rem;
   padding-right: 4rem;
   font-size: 1rem;
+  
 }
 
 .button-form:hover {
@@ -705,6 +720,10 @@ body {
 }
 
 .button-form-reset {
+  font: 400 13.3333px Arial;
+  text-decoration: none;
+  width: 89%;
+  
   color: white;
   background-color: #01626b;
   /* background-color: #858585; */
