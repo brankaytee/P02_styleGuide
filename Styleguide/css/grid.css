@@ -98,7 +98,7 @@ header h1{
 }
 .element-wide{
   border: 3px solid #e0e0e0;
-  margin: 5rem;
+  /* margin: 5rem; */
   margin-top: 2rem;
   margin-bottom: 6rem;
 }
@@ -131,3 +131,169 @@ p{
   font-size: 1rem;
   font-weight: bold;
 }
+
+/* ALL BUTTONS */
+
+/* product listing buttons */
+.product-listing-button-form{
+  margin-top: 2rem;
+}
+  .product-listing-button-form a{
+    background-color: #03B8C9;
+    padding-right: 8.625em;
+    padding-left: 8.625em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+    .product-listing-button-form a:hover{
+      background-color: #0294A1;
+    }
+
+.product-listing-button-reset{
+    padding-bottom: 2rem;
+    padding-top: 6rem;
+}
+  .product-listing-button-reset a{
+    background-color: #01626b;
+    padding-right: 7.5em;
+    padding-left: 7.5em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+    .product-listing-button-reset a:hover{
+      background-color: #01363b;
+    }
+/* Buttons in Cart page */
+.button-form-cart a{
+  background-color: #03B8C9;
+  padding-right: 7em;
+  padding-left: 7em;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 3.1rem;
+}
+  .button-form-cart a:hover{
+    background-color: #0294A1;
+  }
+
+/* Payment form buttons */
+.paymentform-button-reset{
+
+}
+  .paymentform-button-reset a{
+    background-color: #01626b;
+    padding-right: 7.5em;
+    padding-left: 7.5em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+    .paymentform-button-reset a:hover{
+      background-color: #01363b;
+    }
+.paymentform-button-form{
+
+}
+  .paymentform-button-form a{
+    background-color: #03B8C9;
+    padding-right: 7em;
+    padding-left: 7em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    /* margin-left: 3.1rem; */
+  }
+    .paymentform-button-form a:hover{
+      background-color: #0294A1;
+    }
+
+/* Product description buttons */
+.product-description-button-form{
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+}
+  .product-description-button-form a{
+    background-color: #03B8C9;
+    padding-right: 14em;
+    padding-left: 14em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    /* margin-left: 3.1rem; */
+  }
+    .product-description-button-form a:hover{
+      background-color: #0294A1;
+    }
+.product-description-button-reset{
+
+}
+  .product-description-button-reset a{
+    background-color: #01626b;
+    padding-right: 12.5em;
+    padding-left: 12.5em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+    .product-description-button-reset a:hover{
+      background-color: #01363b;
+    }
+
+#interactive_elements .new-button-form{
+  margin-bottom: 2rem;
+}
+  #interactive_elements .new-button-form a{
+    background-color: #03B8C9;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+    #interactive_elements .new-button-form a:hover{
+      background-color: #0294A1;
+    }
+    #interactive_elements .new-button-reset a{
+      background-color: #01626b;
+      padding-right: 10rem;
+      padding-left: 10rem;
+      font-size: 1rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+      #interactive_elements .new-button-reset a:hover{
+        background-color: #01363b;
+      }

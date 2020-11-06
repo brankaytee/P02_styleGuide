@@ -85,12 +85,16 @@
         <p>.button-form</p>
         <h4>Sample code</h4>
         <code>
-            &lt;a href="#" class="button-form"&gt;Submit&lt;/a&gt;
-            &lt;a href="#" class="button-form"&gt;Reset&lt;/a&gt;
+            &lt;a href="#" class="new-button-form"&gt;Button&lt;/a&gt;
+            &lt;a href="#" class="new-button-reset"&gt;Button&lt;/a&gt;
         </code>
         <h4>Rendered element</h4>
-        <button type="button" class="button-form" onclick="#">Submit</button>
-        <button type="button" class="button-form-reset" onclick="#">Reset</button>
+        <div class="new-button-form">
+          <a href="#">Button</a>
+        </div>
+        <div class="new-button-reset">
+          <a href="#">Button</a>
+        </div>
       </section>
 
 
@@ -236,7 +240,6 @@
       <h2>Combined Elements</h2>
       <section class="element">
         <h3>Main Navigation</h3>
-        <p>See navbar on the top of the styleguide</p>
       </section>
 
       <section class="element">
@@ -244,7 +247,7 @@
         <div id="products" class="section">
         <div class="product-listing-elements">
           <a href="product.html" class="img-link">
-            <img src="img/herobackdrop.jpg" alt="Product" width = 70%; style = "max-width: 700px;min-width: 200px;">
+            <img src="img/herobackdrop.jpg" alt="Product" style = "max-width: 700px;min-width: 200px;">
           </a>
           <h3>Chocolate Champagne Glasses</h3>
           <p>$X.XX /glass</p>
@@ -257,8 +260,14 @@
               <option value="20">20</option>
             </select>
           </form>
-          <a href="product.html"><button type="button" class="button-form-reset" onclick="payment.html">View Description</button></a>
-          <button type="button" class="button-form" onclick="product.html">Add to Cart</button>
+          <!-- <a href="product.html"><button type="button" class="button-form-reset" onclick="payment.html">View Description</button></a>
+          <button type="button" class="button-form" onclick="product.html">Add to Cart</button> -->
+          <div class="product-listing-button-reset">
+            <a href="#">View Description</a>
+          </div>
+          <div class="product-listing-button-form">
+            <a href="#">Add to Cart</a>
+          </div>
         </div>
 
       </div>
@@ -439,16 +448,16 @@
   <div class="payment-row">
     <div class="label-input">
       <div class="row-input">
-        <button type="submit" class="button-form-reset" onclick="cart.html">
-          Back to Cart
-        </button>
+        <div class="paymentform-button-reset">
+          <a href="#">Back to Cart</a>
+        </div>
       </div>
     </div>
     <div class="label-input">
       <div class="row-input">
-        <button type="submit" class="button-form" onclick="#">
-          Confirm Payment
-        </button>
+        <div class="paymentform-button-form">
+          <a href="#">Confirm</a>
+        </div>
       </div>
     </div>
   </div>
@@ -488,7 +497,10 @@
           <p>Shipping:</p>
           <form action="payment.html">
             <!-- https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html -->
-            <button type="submit" class="button-form" onclick="#">Proceed to Payment</button>
+            <!-- <button type="submit" class="button-form" onclick="#">Proceed to Payment</button> -->
+            <div class="button-form-cart">
+              <a href="#">Proceed to Payment</a>
+            </div>
           </form>
       </div>
     </div>
@@ -537,7 +549,6 @@
           <li>Andrea Pereira de Almeida. (BITOVI Website). (2017). <strong>Side navigation bar [CSS]</strong>. Retrieved from <a href="#">https://www.bitovi.com/blog/use-flexbox-to-create-a-sticky-header-and-sidebar-with-flexible-content</a>.</li>
           <li>Fira Cloud Tech. (YouTube). (2020). <strong>Product card inspiration [CSS]</strong>. Retrieved from <a href="#">https://www.youtube.com/watch?v=QRHjKAq4x3I</a>.</li>
           <li>Ali Morshedlou. (Unsplash photo website). (Unknown). <strong>Persona Image [Image]</strong>. Retrieved from <a href="#">https://unsplash.com/photos/WMD64tMfc4k</a>.</li>
-          <li>Font Awesome. (Font Awesome Website). (Unknown). <strong>Icons for website [JavaScript]</strong>. Retrieved from <a href="#">https://fontawesome.com/</a>.</li>
         </ul>
     </section>
 
