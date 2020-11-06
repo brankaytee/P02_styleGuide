@@ -132,11 +132,13 @@ p{
   font-weight: bold;
 }
 
+/* ALL BUTTONS */
 
-#combined_elements .new-button-form{
+/* product listing buttons */
+.product-listing-button-form{
   margin-top: 2rem;
 }
-  #combined_elements .new-button-form a{
+  .product-listing-button-form a{
     background-color: #03B8C9;
     padding-right: 8.625em;
     padding-left: 8.625em;
@@ -147,13 +149,15 @@ p{
     text-decoration: none;
     font-weight: bold;
   }
-  #combined_elements .new-button-form a:hover{
-    background-color: #0294A1;
-  }
-#combined_elements .new-button-reset{
-  margin-top: 5rem;
+    .product-listing-button-form a:hover{
+      background-color: #0294A1;
+    }
+
+.product-listing-button-reset{
+    padding-bottom: 2rem;
+    padding-top: 6rem;
 }
-  #combined_elements .new-button-reset a{
+  .product-listing-button-reset a{
     background-color: #01626b;
     padding-right: 7.5em;
     padding-left: 7.5em;
@@ -164,9 +168,103 @@ p{
     text-decoration: none;
     font-weight: bold;
   }
-  #combined_elements .new-button-reset a:hover{
-    background-color: #01363b;
+    .product-listing-button-reset a:hover{
+      background-color: #01363b;
+    }
+/* Buttons in Cart page */
+.button-form-cart a{
+  background-color: #03B8C9;
+  padding-right: 7em;
+  padding-left: 7em;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 3.1rem;
+}
+  .button-form-cart a:hover{
+    background-color: #0294A1;
   }
+
+/* Payment form buttons */
+.paymentform-button-reset{
+
+}
+  .paymentform-button-reset a{
+    background-color: #01626b;
+    padding-right: 7.5em;
+    padding-left: 7.5em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+    .paymentform-button-reset a:hover{
+      background-color: #01363b;
+    }
+.paymentform-button-form{
+
+}
+  .paymentform-button-form a{
+    background-color: #03B8C9;
+    padding-right: 7em;
+    padding-left: 7em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    /* margin-left: 3.1rem; */
+  }
+    .paymentform-button-form a:hover{
+      background-color: #0294A1;
+    }
+
+/* Product description buttons */
+.product-description-button-form{
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+}
+  .product-description-button-form a{
+    background-color: #03B8C9;
+    padding-right: 14em;
+    padding-left: 14em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    /* margin-left: 3.1rem; */
+  }
+    .product-description-button-form a:hover{
+      background-color: #0294A1;
+    }
+.product-description-button-reset{
+
+}
+  .product-description-button-reset a{
+    background-color: #01626b;
+    padding-right: 12.5em;
+    padding-left: 12.5em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+    .product-description-button-reset a:hover{
+      background-color: #01363b;
+    }
 
 #interactive_elements .new-button-form{
   margin-bottom: 2rem;
@@ -199,72 +297,3 @@ p{
       #interactive_elements .new-button-reset a:hover{
         background-color: #01363b;
       }
-      #combined_elements .price-summary .new-button-form a{
-        background-color: #03B8C9;
-        padding-right: 7em;
-        padding-left: 7em;
-        font-size: 1rem;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-        text-align: center;
-        margin-left: 3.1rem;
-      }
-        #combined_elements .price-summary .new-button-form a:hover{
-          background-color: #0294A1;
-        }
-
-/* product listing buttons */
-.new-button-form-listing{
-  margin-top: 2rem;
-}
-  .new-button-form-listing a{
-    background-color: #03B8C9;
-    padding-right: 8.625em;
-    padding-left: 8.625em;
-    font-size: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  .new-button-form-listing a:hover{
-    background-color: #0294A1;
-  }
-.new-button-reset-listing{
-  margin-top: 5rem;
-}
-  .new-button-reset-listing a{
-    background-color: #01626b;
-    padding-right: 7.5em;
-    padding-left: 7.5em;
-    font-size: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  .new-button-reset-listing a:hover{
-    background-color: #01363b;
-  }
-
-  .new-button-form-cart a{
-    background-color: #03B8C9;
-    padding-right: 7em;
-    padding-left: 7em;
-    font-size: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    text-align: center;
-    margin-left: 3.1rem;
-  }
-    .new-button-form-cart a:hover{
-      background-color: #0294A1;
-    }

@@ -1193,13 +1193,13 @@ header h1 {
   .product-description-wrapper .right-side {
     padding: 10px;
     width: auto;
-   
+
   }
 
 
   .product-description-wrapper .left-side img {
     width: 80%;
-    
+
   }
 
   .product-description-wrapper {
@@ -1258,7 +1258,7 @@ header h1 {
   .product-description-wrapper .right-side {
     padding: 10px;
     width: auto;
-   
+
   }
   .product-description-wrapper .right-side .average-rating {
     display: flex;
@@ -1270,7 +1270,7 @@ header h1 {
 
   .product-description-wrapper .left-side img {
     width: 80%;
-    
+
   }
 
   .product-description-wrapper {
@@ -1285,7 +1285,7 @@ header h1 {
     padding: 0px;
     margin: 0px;
     padding-top: 0rem;
-    
+
   }
 
   .product-description-wrapper .right-side .description p {
@@ -1370,4 +1370,138 @@ h3 {
     padding-top: 10rem;
     color: #03B8C9;
   }
+    }
+
+
+/* ALL BUTTONS */
+
+/* product listing buttons */
+.product-listing-button-form{
+}
+  .product-listing-button-form a{
+    background-color: #03B8C9;
+    padding-right: 8.625em;
+    padding-left: 8.625em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+    .product-listing-button-form a:hover{
+      background-color: #0294A1;
+    }
+
+.product-listing-button-reset{
+  padding-bottom: 2rem;
+  padding-top: 6rem;
+}
+  .product-listing-button-reset a{
+    background-color: #01626b;
+    padding-right: 7.5em;
+    padding-left: 7.5em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+    .product-listing-button-reset a:hover{
+      background-color: #01363b;
+    }
+/* Buttons in Cart page */
+.button-form-cart a{
+  background-color: #03B8C9;
+  padding-right: 7em;
+  padding-left: 7em;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 3.1rem;
+}
+  .button-form-cart a:hover{
+    background-color: #0294A1;
+  }
+
+/* Payment form buttons */
+.paymentform-button-reset{
+
+}
+  .paymentform-button-reset a{
+    background-color: #01626b;
+    padding-right: 7.5em;
+    padding-left: 7.5em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+    .paymentform-button-reset a:hover{
+      background-color: #01363b;
+    }
+.paymentform-button-form{
+
+}
+  .paymentform-button-form a{
+    background-color: #03B8C9;
+    padding-right: 7em;
+    padding-left: 7em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    /* margin-left: 3.1rem; */
+  }
+    .paymentform-button-form a:hover{
+      background-color: #0294A1;
+    }
+
+/* Product description buttons */
+.product-description-button-form{
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+}
+  .product-description-button-form a{
+    background-color: #03B8C9;
+    padding-right: 14em;
+    padding-left: 14em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    /* margin-left: 3.1rem; */
+  }
+    .product-description-button-form a:hover{
+      background-color: #0294A1;
+    }
+.product-description-button-reset{
+
+}
+  .product-description-button-reset a{
+    background-color: #01626b;
+    padding-right: 12.5em;
+    padding-left: 12.5em;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+    .product-description-button-reset a:hover{
+      background-color: #01363b;
     }
