@@ -1,9 +1,6 @@
-html::-webkit-scrollbar {
-  display: none;
-}
 
-html,
-body {
+
+body, html {
   max-width: 100%;
   overflow-x: hidden;
   background-color: white;
@@ -322,7 +319,7 @@ body {
   font-weight: bold;
 }
 
-#products .product-listing-elements button,a { 
+#products .product-listing-elements button { 
   margin-top: 2.5rem;
 }
 
@@ -783,7 +780,7 @@ body {
     color: black;
     margin-right: 40px;
     flex-grow: 1;
-    margin-top:
+    
   }
 
   .nav-list {
@@ -1389,7 +1386,7 @@ h3 {
     padding-top: 10rem;
     color: #03B8C9;
   }
-    }
+   
 
 
 /* ALL BUTTONS */
@@ -1430,6 +1427,42 @@ h3 {
     .product-listing-button-reset a:hover{
       background-color: #01363b;
     }
+    @media screen and (max-width: 700px) {
+
+      .product-listing-button-form a{
+        background-color: #03B8C9;
+        padding-right: 1em;
+        padding-left: 1em;
+        font-size: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+        .product-listing-button-form a:hover{
+          background-color: #0294A1;
+        }
+    
+    .product-listing-button-reset{
+      padding-bottom: 2rem;
+      padding-top: 1rem;
+    }
+      .product-listing-button-reset a{
+        background-color: #01626b;
+        padding-right: 1em;
+        padding-left: 1em;
+        font-size: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+        .product-listing-button-reset a:hover{
+          background-color: #01363b;
+        }
+    }
 /* Buttons in Cart page */
 .button-form-cart a{
   background-color: #03B8C9;
@@ -1447,6 +1480,7 @@ h3 {
   .button-form-cart a:hover{
     background-color: #0294A1;
   }
+
 
 /* Payment form buttons */
 .paymentform-button-reset{
